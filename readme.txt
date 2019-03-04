@@ -5,4 +5,8 @@ Git is free software distributed under the GPL.
 Git has a mutable index called stage.
 Git tracks changes of files.
 git checkout -b dev
+<<<<<<< HEAD
 Creating a new branch is quick & simple.
+=======
+Creating a new branch 'feature1'.
+>>>>>>> feature1
