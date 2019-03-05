@@ -28,7 +28,7 @@ public class TestUtils {
      * 使用改造过的Connection
      */
     @Test
-    public void testAddUser1(){
+    public void testAddUser1() {
         Connection conn = null;
         PreparedStatement pstmt = null;
 //        创建自定义连接池对象
@@ -42,14 +42,14 @@ public class TestUtils {
             pstmt.setString(1, "吕布5");
             pstmt.setString(2, "貂蝉5");
             int rows = pstmt.executeUpdate();
-            if(rows>0){
+            if (rows > 0) {
                 System.out.println("成功");
-            }else {
+            } else {
                 System.out.println("失败");
             }
-        }catch (Exception e){
+        } catch (Exception e) {
             throw new RuntimeException(e);
-        }finally {
+        } finally {
             JDBCUtils_V4.release(conn, pstmt, null);
         }
     }
@@ -59,7 +59,7 @@ public class TestUtils {
      * 使用未改造过的Connection
      */
     @Test
-    public void testAddUser(){
+    public void testAddUser() {
         Connection conn = null;
         PreparedStatement pstmt = null;
 //        创建自定义连接池对象
@@ -72,18 +72,17 @@ public class TestUtils {
             pstmt.setString(1, "吕布");
             pstmt.setString(2, "貂蝉");
             int rows = pstmt.executeUpdate();
-            if(rows>0){
+            if (rows > 0) {
                 System.out.println("成功");
-            }else {
+            } else {
                 System.out.println("失败");
             }
-        }catch (Exception e){
+        } catch (Exception e) {
             throw new RuntimeException(e);
-        }finally {
+        } finally {
             dataSource.backConnection(conn);
         }
     }
-
 
 
     /*

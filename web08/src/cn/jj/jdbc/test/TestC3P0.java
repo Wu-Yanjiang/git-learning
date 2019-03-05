@@ -1,6 +1,6 @@
 package cn.jj.jdbc.test;
 
-import cn.jj.jdbc.C3O0Utils;
+import cn.jj.jdbc.C3P0Utils;
 import cn.jj.jdbc.JDBCUtils_V4;
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 import org.junit.Test;
@@ -19,7 +19,7 @@ public class TestC3P0 {
 
         try {
 //            从池子获取连接对象
-            conn = C3O0Utils.getConnection();
+            conn = C3P0Utils.getConnection();
             String sql = "insert into tbl_user values(null,?,?)";
             pstmt = conn.prepareStatement(sql);
             pstmt.setString(1, "吕布6");

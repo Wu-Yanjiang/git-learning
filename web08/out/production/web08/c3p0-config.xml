@@ -3,7 +3,7 @@
 
     <default-config>
         <property name="driverClass">com.mysql.jdbc.Driver</property>
-        <property name="jdbcUrl">jdbc:mysql://119.28.82.234:3306/web_08</property>
+        <property name="jdbcUrl">jdbc:mysql://119.28.82.234/web08</property>
         <property name="user">root</property>
         <property name="password">123456</property>
         <property name="initialPoolSize">5</property>
