@@ -3,16 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="fa95bcc7-b66f-4c9a-a8ef-1802d67d9e24" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/web08/c3p0-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web08/c3p0-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/jj/jdbc/C3P0Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/jj/jdbc/utils/C3P0Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/jj/jdbc/DataSource/MyDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/jj/jdbc/DataSource/MyDataSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/jj/jdbc/DataSource/MyDataSource1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/jj/jdbc/DataSource/MyDataSource1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/jj/jdbc/JDBCUtils_V1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/jj/jdbc/utils/JDBCUtils_V1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/jj/jdbc/JDBCUtils_V2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/jj/jdbc/utils/JDBCUtils_V2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/jj/jdbc/JDBCUtils_V3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/jj/jdbc/utils/JDBCUtils_V3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/jj/jdbc/JDBCUtils_V4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/jj/jdbc/utils/JDBCUtils_V4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/jj/jdbc/test/TestC3P0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/jj/jdbc/test/TestC3P0.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/jj/jdbc/test/TestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/jj/jdbc/test/TestUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web08/cn/jj/jdbc/C3P0Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web08/cn/jj/jdbc/DBCPUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web08/cn/jj/jdbc/DataSource/MyDataSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web08/cn/jj/jdbc/DataSource/MyDataSource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web08/cn/jj/jdbc/DataSource/MyDataSource1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web08/cn/jj/jdbc/DataSource/MyDataSource1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web08/cn/jj/jdbc/JDBCUtils_V1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web08/cn/jj/jdbc/JDBCUtils_V2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web08/cn/jj/jdbc/JDBCUtils_V3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web08/cn/jj/jdbc/JDBCUtils_V4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web08/cn/jj/jdbc/test/DBCPUtilsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web08/cn/jj/jdbc/test/DBCPUtilsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web08/cn/jj/jdbc/test/TestC3P0.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web08/cn/jj/jdbc/test/TestC3P0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web08/cn/jj/jdbc/test/TestUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web08/cn/jj/jdbc/test/TestUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/jj/jdbc/test/TestDBUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/jj/jdbc/test/TestDBUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web08.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web08.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -41,11 +43,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/jj/domain/User.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
               <folding>
                 <element signature="e#145#146#0" expanded="true" />
                 <element signature="e#171#172#0" expanded="true" />
@@ -64,14 +66,26 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/jj/jdbc/test/TestDBUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Arquillian JUnit Test Class" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -108,11 +122,14 @@
         <option value="$PROJECT_DIR$/src/cn/jj/jdbc/DBCPUtilsTest.java" />
         <option value="$PROJECT_DIR$/src/cn/jj/jdbc/test/DBCPUtilsTest.java" />
         <option value="$PROJECT_DIR$/src/cn/jj/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/cn/jj/jdbc/test/SolutionTest.java" />
+        <option value="$PROJECT_DIR$/src/cn/jj/jdbc/test/TestDBUtils.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="826" />
+    <option name="x" value="614" />
+    <option name="y" value="33" />
     <option name="width" value="1200" />
     <option name="height" value="745" />
   </component>
@@ -156,6 +173,14 @@
             </path>
             <path>
               <item name="web08" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web08" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="jj" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web08" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -183,7 +208,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="D:/BaiduNetdiskDownload/02_第2阶段-JavaEE就业班开发教程+实战项目（共34天）/01-JavaEE教程（第1-25天）/WEB10_JDBC连接池&amp;DBUtils/WEB10_JDBC连接池&amp;DBUtils/资料/DBCP/commons-pool-1.5.6-bin/commons-pool-1.5.6/commons-pool-1.5.6.jar!/" />
+    <property name="last_opened_file_path" value="D:/BaiduNetdiskDownload/02_第2阶段-JavaEE就业班开发教程+实战项目（共34天）/01-JavaEE教程（第1-25天）/WEB10_JDBC连接池&amp;DBUtils/WEB10_JDBC连接池&amp;DBUtils/资料/dbutils/Apache dbutils/commons-dbutils-1.4-bin/commons-dbutils-1.4/commons-dbutils-1.4.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -213,7 +238,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DBCPUtilsTest.testUpdatedUserById">
+  <component name="RunManager" selected="JUnit.TestDBUtils.testAddUer">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.jj.jdbc.test.Solution" />
+      <module name="web08" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.jj.jdbc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DBCPUtilsTest.restUpdatedUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web08" />
       <extension name="coverage">
@@ -246,22 +284,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestC3P0.testAddUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web08" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.jj.jdbc.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.jj.jdbc.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.jj.jdbc.test.TestC3P0" />
-      <option name="METHOD_NAME" value="testAddUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestC3P0.testAddUser1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web08" />
       <extension name="coverage">
@@ -278,7 +300,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestUtils.testAddUser1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDBUtils.testAddUer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web08" />
       <extension name="coverage">
         <pattern>
@@ -287,27 +309,27 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.jj.jdbc.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.jj.jdbc.test.TestUtils" />
-      <option name="METHOD_NAME" value="testAddUser1" />
+      <option name="MAIN_CLASS_NAME" value="cn.jj.jdbc.test.TestDBUtils" />
+      <option name="METHOD_NAME" value="testAddUer" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestUtils.testAddUser1" />
-      <item itemvalue="JUnit.TestC3P0.testAddUser" />
       <item itemvalue="JUnit.TestC3P0.testAddUser1" />
       <item itemvalue="JUnit.DBCPUtilsTest.restUpdatedUserById" />
       <item itemvalue="JUnit.DBCPUtilsTest.testUpdatedUserById" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="JUnit.TestDBUtils.testAddUer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestDBUtils.testAddUer" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="JUnit.DBCPUtilsTest.testUpdatedUserById" />
         <item itemvalue="JUnit.DBCPUtilsTest.restUpdatedUserById" />
         <item itemvalue="JUnit.TestC3P0.testAddUser1" />
-        <item itemvalue="JUnit.TestC3P0.testAddUser" />
-        <item itemvalue="JUnit.TestUtils.testAddUser1" />
       </list>
     </recent_temporary>
   </component>
@@ -322,14 +344,11 @@
       <option name="presentableId" value="Default" />
       <updated>1551605441015</updated>
       <workItem from="1551605450011" duration="14864000" />
-      <workItem from="1551681364771" duration="16086000" />
+      <workItem from="1551681364771" duration="25742000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestUtils_testAddUser1 - 2019.03.04 at 23h 48m 24s.xml">
-      <configuration name="TestUtils.testAddUser1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestUtils_testAddUser1 - 2019.03.04 at 23h 49m 18s.xml">
       <configuration name="TestUtils.testAddUser1" configurationId="JUnit" />
     </history-entry>
@@ -357,23 +376,26 @@
     <history-entry file="DBCPUtilsTest_testUpdatedUserById - 2019.03.05 at 15h 34m 46s.xml">
       <configuration name="DBCPUtilsTest.testUpdatedUserById" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DBCPUtilsTest_testUpdatedUserById - 2019.03.05 at 16h 26m 20s.xml">
+      <configuration name="DBCPUtilsTest.testUpdatedUserById" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30950000" />
+    <option name="totallyTimeSpent" value="40606000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="826" y="0" width="1200" height="745" extended-state="0" />
+    <frame x="614" y="33" width="1200" height="745" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.38947368" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.38880485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3666121" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32903227" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.44680852" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -383,7 +405,7 @@
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32903227" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32850242" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32580644" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -486,13 +508,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="524" column="42" lean-forward="true" selection-start-line="524" selection-start-column="42" selection-end-line="524" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -688,7 +703,7 @@
     <entry file="file://$PROJECT_DIR$/src/cn/jj/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding>
             <element signature="e#145#146#0" expanded="true" />
             <element signature="e#171#172#0" expanded="true" />
@@ -702,6 +717,53 @@
             <element signature="e#440#441#0" expanded="true" />
             <element signature="e#490#491#0" expanded="true" />
             <element signature="e#532#533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="1576" column="15" selection-start-line="1576" selection-start-column="15" selection-end-line="1576" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="120" column="11" selection-start-line="120" selection-start-column="11" selection-end-line="120" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="1493" column="26" lean-forward="true" selection-start-line="1493" selection-start-column="26" selection-end-line="1493" selection-end-column="26" />
+          <folding>
+            <element signature="e#19228#19229#0" expanded="true" />
+            <element signature="e#19311#19312#0" expanded="true" />
+            <element signature="e#57162#57163#0" expanded="true" />
+            <element signature="e#57205#57206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/jj/jdbc/test/SolutionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/jj/jdbc/test/TestDBUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -771,7 +833,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>commons-dbcp-1.4</last-edited>
+          <last-edited>commons-dbutils-1.4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
