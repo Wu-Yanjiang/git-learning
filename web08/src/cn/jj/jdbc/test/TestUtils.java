@@ -2,10 +2,10 @@ package cn.jj.jdbc.test;
 
 import cn.jj.jdbc.DataSource.MyDataSource;
 import cn.jj.jdbc.DataSource.MyDataSource1;
-import cn.jj.jdbc.JDBCUtils_V1;
-import cn.jj.jdbc.JDBCUtils_V2;
-import cn.jj.jdbc.JDBCUtils_V3;
-import cn.jj.jdbc.JDBCUtils_V4;
+import cn.jj.jdbc.utils.JDBCUtils_V1;
+import cn.jj.jdbc.utils.JDBCUtils_V2;
+import cn.jj.jdbc.utils.JDBCUtils_V3;
+import cn.jj.jdbc.utils.JDBCUtils_V4;
 import org.junit.Test;
 
 import javax.sql.DataSource;

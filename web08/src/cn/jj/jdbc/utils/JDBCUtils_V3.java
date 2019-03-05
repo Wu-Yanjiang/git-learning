@@ -1,7 +1,9 @@
-package cn.jj.jdbc;
+package cn.jj.jdbc.utils;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.sql.*;
-import java.util.ResourceBundle;
+import java.util.Properties;
 
 /*
  *
@@ -11,7 +13,7 @@ import java.util.ResourceBundle;
  * @date
  * @description 提供获取连接释放资源的方法
  */
-public class JDBCUtils_V2 {
+public class JDBCUtils_V3 {
     private static String driver;
     private static String url;
     private static String username;
@@ -27,11 +29,25 @@ public class JDBCUtils_V2 {
      * @description 静态代码块加载配置文件信息
      */
     static {
-        ResourceBundle bundle = ResourceBundle.getBundle("db");
-        driver = bundle.getString("driver");
-        url = bundle.getString("url");
-        username = bundle.getString("username");
-        password = bundle.getString("password");
+        try {
+//        通过当前类获取类加载器
+            ClassLoader classLoader = JDBCUtils_V3.class.getClassLoader();
+//        通过类加载器的方法获得一个输入流
+            InputStream is = classLoader.getResourceAsStream("db.properties");
+//        创建properties对象
+            Properties props = new Properties();
+//        加载输入流
+            props.load(is);
+//        获取相关参数值
+            driver = props.getProperty("driver");
+            url = props.getProperty("url");
+            username = props.getProperty("username");
+            password = props.getProperty("password");
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
     }
 
     /*
@@ -54,26 +70,18 @@ public class JDBCUtils_V2 {
     }
 
     public static void release(Connection conn, PreparedStatement pstmt, ResultSet rs) {
-        if (rs != null) {
-            try {
+        try {
+            if (rs != null) {
                 rs.close();
-            } catch (SQLException e) {
-                e.printStackTrace();
             }
-        }
-        if (pstmt != null) {
-            try {
+            if (pstmt != null) {
                 pstmt.close();
-            } catch (SQLException e) {
-                e.printStackTrace();
             }
-        }
-        if (conn != null) {
-            try {
+            if (conn != null) {
                 conn.close();
-            } catch (SQLException e) {
-                e.printStackTrace();
             }
+        } catch (SQLException e) {
+            System.out.println(e);
         }
     }
 }

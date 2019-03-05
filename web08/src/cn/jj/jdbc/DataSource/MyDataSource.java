@@ -1,6 +1,6 @@
 package cn.jj.jdbc.DataSource;
 
-import cn.jj.jdbc.JDBCUtils_V4;
+import cn.jj.jdbc.utils.JDBCUtils_V4;
 
 import javax.sql.DataSource;
 import java.io.PrintWriter;

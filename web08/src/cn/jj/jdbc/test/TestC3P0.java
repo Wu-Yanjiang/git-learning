@@ -1,7 +1,7 @@
 package cn.jj.jdbc.test;
 
-import cn.jj.jdbc.C3P0Utils;
-import cn.jj.jdbc.JDBCUtils_V4;
+import cn.jj.jdbc.utils.C3P0Utils;
+import cn.jj.jdbc.utils.JDBCUtils_V4;
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 import org.junit.Test;
 
