@@ -29,55 +29,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/jj/jdbc/DataSource/MyDataSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="504">
+              <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#392#404#0" expanded="true" />
+                <element signature="e#1097#1098#0" expanded="true" />
+                <element signature="e#1116#1117#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jj/TestLogin.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/jj/jdbc/DataSource/MyDataSource1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+              <folding>
+                <element signature="e#433#445#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/jj/jdbc/DataSource/MyConnection.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/jj/jdbc/JDBCUtils_V1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-288">
-              <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/jj/jdbc/JDBCUtils_V2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-120">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/jj/jdbc/JDBCUtils_V3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="45" column="53" lean-forward="true" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
+              <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,11 +70,46 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/jj/jdbc/test/TestUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-516">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="378">
+              <caret line="84" column="5" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="84" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/jj/jdbc/test/TestC3P0.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-153">
+              <caret line="53" column="65" lean-forward="true" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/jj/jdbc/C3O0Utils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="91" selection-start-line="8" selection-start-column="91" selection-end-line="8" selection-end-column="91" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -107,6 +124,15 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>clo</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -116,18 +142,25 @@
         <option value="$PROJECT_DIR$/src/com/jj/TestLogin.java" />
         <option value="$PROJECT_DIR$/src/db.properties" />
         <option value="$PROJECT_DIR$/src/cn/jj/jdbc/JDBCUtils_V2.java" />
-        <option value="$PROJECT_DIR$/src/cn/jj/jdbc/JDBCUtils_V3.java" />
-        <option value="$PROJECT_DIR$/src/cn/jj/jdbc/test/TestUtils.java" />
         <option value="$PROJECT_DIR$/src/cn/jj/jdbc/JDBCUtils_V1.java" />
+        <option value="$PROJECT_DIR$/src/cn/jj/jdbc/JDBCUtils_V4.java" />
+        <option value="$PROJECT_DIR$/src/cn/jj/jdbc/DataSource/MyDataSource.java" />
+        <option value="$PROJECT_DIR$/src/cn/jj/jdbc/JDBCUtils_V3.java" />
+        <option value="$PROJECT_DIR$/src/cn/jj/jdbc/DataSource/MyDataSource1.java" />
+        <option value="$PROJECT_DIR$/src/cn/jj/jdbc/DataSource/MyConnection.java" />
+        <option value="$PROJECT_DIR$/src/cn/jj/jdbc/test/TestUtils.java" />
+        <option value="$PROJECT_DIR$/src/c3p0-config.xml" />
+        <option value="$PROJECT_DIR$/src/cn/jj/jdbc/C3O0Utils.java" />
+        <option value="$PROJECT_DIR$/src/cn/jj/jdbc/test/TestC3P0.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="951" />
-    <option name="height" value="788" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="183" />
+    <option name="width" value="1092" />
+    <option name="height" value="745" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -186,15 +219,18 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="D:/BaiduNetdiskDownload/02_第2阶段-JavaEE就业班开发教程+实战项目（共34天）/01-JavaEE教程（第1-25天）/WEB08_MySQL&amp;JDBC回顾/WEB08_MySQL&amp;JDBC回顾/资料/mysql-connector-java-5.1.7/mysql-connector-java-5.1.7-bin.jar!/" />
+    <property name="last_opened_file_path" value="E:/Program Files (x86)/cmder/vendor/git-for-windows/bin/git.exe" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propGUI" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="cn.jj.jdbc.test" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.jj.jdbc.DataSource" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -212,8 +248,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestUtils.testUpdateByID">
-    <configuration name="TestUtils" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestC3P0.testAddUser1">
+    <configuration name="TestC3P0.testAddUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web08" />
       <extension name="coverage">
         <pattern>
@@ -222,29 +258,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.jj.jdbc.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.jj.jdbc.test.TestUtils" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestUtils.testADD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web08" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.jj.jdbc.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.jj.jdbc.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.jj.jdbc.test.TestUtils" />
-      <option name="METHOD_NAME" value="testADD" />
+      <option name="MAIN_CLASS_NAME" value="cn.jj.jdbc.test.TestC3P0" />
+      <option name="METHOD_NAME" value="testAddUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestUtils.testDeleteByID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestC3P0.testAddUser1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web08" />
       <extension name="coverage">
         <pattern>
@@ -253,14 +274,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.jj.jdbc.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.jj.jdbc.test.TestUtils" />
-      <option name="METHOD_NAME" value="testDeleteByID" />
+      <option name="MAIN_CLASS_NAME" value="cn.jj.jdbc.test.TestC3P0" />
+      <option name="METHOD_NAME" value="testAddUser1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestUtils.testFindUserByID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestUtils.testAddUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web08" />
       <extension name="coverage">
         <pattern>
@@ -270,7 +291,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="cn.jj.jdbc.test" />
       <option name="MAIN_CLASS_NAME" value="cn.jj.jdbc.test.TestUtils" />
-      <option name="METHOD_NAME" value="testFindUserByID" />
+      <option name="METHOD_NAME" value="testAddUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUtils.testAddUser1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web08" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.jj.jdbc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.jj.jdbc.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.jj.jdbc.test.TestUtils" />
+      <option name="METHOD_NAME" value="testAddUser1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -293,19 +330,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestUtils" />
-      <item itemvalue="JUnit.TestUtils.testFindUserByID" />
-      <item itemvalue="JUnit.TestUtils.testADD" />
-      <item itemvalue="JUnit.TestUtils.testDeleteByID" />
       <item itemvalue="JUnit.TestUtils.testUpdateByID" />
+      <item itemvalue="JUnit.TestUtils.testAddUser" />
+      <item itemvalue="JUnit.TestUtils.testAddUser1" />
+      <item itemvalue="JUnit.TestC3P0.testAddUser" />
+      <item itemvalue="JUnit.TestC3P0.testAddUser1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestC3P0.testAddUser1" />
+        <item itemvalue="JUnit.TestC3P0.testAddUser" />
+        <item itemvalue="JUnit.TestUtils.testAddUser1" />
+        <item itemvalue="JUnit.TestUtils.testAddUser" />
         <item itemvalue="JUnit.TestUtils.testUpdateByID" />
-        <item itemvalue="JUnit.TestUtils.testDeleteByID" />
-        <item itemvalue="JUnit.TestUtils.testADD" />
-        <item itemvalue="JUnit.TestUtils.testFindUserByID" />
-        <item itemvalue="JUnit.TestUtils" />
       </list>
     </recent_temporary>
   </component>
@@ -320,57 +357,58 @@
       <option name="presentableId" value="Default" />
       <updated>1551605441015</updated>
       <workItem from="1551605450011" duration="14864000" />
-      <workItem from="1551681364771" duration="786000" />
+      <workItem from="1551681364771" duration="11244000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestUtils - 2019.03.03 at 23h 19m 17s.xml">
-      <configuration name="TestUtils" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestUtils_testFindUserByID - 2019.03.03 at 23h 24m 15s.xml">
-      <configuration name="TestUtils.testFindUserByID" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestUtils_testFindUserByID - 2019.03.03 at 23h 27m 43s.xml">
-      <configuration name="TestUtils.testFindUserByID" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestUtils_testFindUserByID - 2019.03.03 at 23h 33m 19s.xml">
-      <configuration name="TestUtils.testFindUserByID" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestUtils_testFindUserByID - 2019.03.03 at 23h 35m 20s.xml">
-      <configuration name="TestUtils.testFindUserByID" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestUtils_testFindUserByID - 2019.03.03 at 23h 39m 50s.xml">
-      <configuration name="TestUtils.testFindUserByID" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestUtils_testADD - 2019.03.03 at 23h 56m 15s.xml">
-      <configuration name="TestUtils.testADD" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestUtils_testDeleteByID - 2019.03.04 at 00h 07m 46s.xml">
-      <configuration name="TestUtils.testDeleteByID" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestUtils_testDeleteByID - 2019.03.04 at 00h 08m 46s.xml">
       <configuration name="TestUtils.testDeleteByID" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestUtils_testUpdateByID - 2019.03.04 at 00h 12m 21s.xml">
       <configuration name="TestUtils.testUpdateByID" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestUtils_testAddUser - 2019.03.04 at 21h 04m 11s.xml">
+      <configuration name="TestUtils.testAddUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUtils_testAddUser1 - 2019.03.04 at 23h 08m 37s.xml">
+      <configuration name="TestUtils.testAddUser1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUtils_testAddUser1 - 2019.03.04 at 23h 13m 05s.xml">
+      <configuration name="TestUtils.testAddUser1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUtils_testAddUser1 - 2019.03.04 at 23h 40m 50s.xml">
+      <configuration name="TestUtils.testAddUser1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUtils_testAddUser1 - 2019.03.04 at 23h 47m 16s.xml">
+      <configuration name="TestUtils.testAddUser1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUtils_testAddUser1 - 2019.03.04 at 23h 48m 24s.xml">
+      <configuration name="TestUtils.testAddUser1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUtils_testAddUser1 - 2019.03.04 at 23h 49m 18s.xml">
+      <configuration name="TestUtils.testAddUser1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestC3P0_testAddUser - 2019.03.05 at 00h 16m 02s.xml">
+      <configuration name="TestC3P0.testAddUser" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15650000" />
+    <option name="totallyTimeSpent" value="26108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20726173" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.30523255" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.44283414" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4983871" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -417,13 +455,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.sql/java/sql/Connection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="138" column="22" selection-start-line="138" selection-start-column="22" selection-end-line="138" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/db.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -462,16 +493,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jj/TestLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/jj/jdbc/JDBCUtils_V1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-288">
@@ -489,10 +510,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/jj/jdbc/test/TestUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jj/TestLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-516">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="252">
+          <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -501,8 +522,129 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/jj/jdbc/JDBCUtils_V3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="45" column="53" lean-forward="true" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
+        <state relative-caret-position="103">
+          <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="524" column="42" lean-forward="true" selection-start-line="524" selection-start-column="42" selection-end-line="524" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/AutoCloseable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="96" column="9" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.sql/java/sql/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.sql/javax/sql/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="91" column="13" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/jj/jdbc/DataSource/MyDataSource1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="e#433#445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/jj/jdbc/DataSource/MyConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/jj/jdbc/JDBCUtils_V4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/jj/jdbc/test/TestUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="84" column="5" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="84" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/jj/jdbc/DataSource/MyDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#392#404#0" expanded="true" />
+            <element signature="e#1097#1098#0" expanded="true" />
+            <element signature="e#1116#1117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/BaiduNetdiskDownload/02_第2阶段-JavaEE就业班开发教程+实战项目（共34天）/01-JavaEE教程（第1-25天）/WEB10_JDBC连接池&amp;DBUtils/WEB10_JDBC连接池&amp;DBUtils/资料/c3p0/c3p0/c3p0-0.9.1.2.bin/c3p0-0.9.1.2/lib/c3p0-0.9.1.2.jar!/com/mchange/v2/c3p0/ComboPooledDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="42" column="59" lean-forward="true" selection-start-line="42" selection-start-column="59" selection-end-line="42" selection-end-column="59" />
+          <folding>
+            <element signature="e#1241#1242#0" expanded="true" />
+            <element signature="e#1267#1268#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/jj/jdbc/C3O0Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="91" selection-start-line="8" selection-start-column="91" selection-end-line="8" selection-end-column="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/jj/jdbc/test/TestC3P0.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="53" column="65" lean-forward="true" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -574,7 +716,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>mysql-connector-java-5.1.7-bin</last-edited>
+          <last-edited>c3p0-0.9.1.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -1,10 +1,14 @@
 package cn.jj.jdbc.test;
 
+import cn.jj.jdbc.DataSource.MyDataSource;
+import cn.jj.jdbc.DataSource.MyDataSource1;
 import cn.jj.jdbc.JDBCUtils_V1;
 import cn.jj.jdbc.JDBCUtils_V2;
 import cn.jj.jdbc.JDBCUtils_V3;
+import cn.jj.jdbc.JDBCUtils_V4;
 import org.junit.Test;
 
+import javax.sql.DataSource;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -19,6 +23,69 @@ import java.sql.SQLException;
  * @description 测试工具类
  */
 public class TestUtils {
+
+    /**
+     * 使用改造过的Connection
+     */
+    @Test
+    public void testAddUser1(){
+        Connection conn = null;
+        PreparedStatement pstmt = null;
+//        创建自定义连接池对象
+        DataSource dataSource = new MyDataSource1();
+        try {
+//            从池子获取连接对象
+            conn = dataSource.getConnection();
+            String sql = "insert into tbl_user values(null,?,?)";
+            //3.必须在自定义的connection类中重写prepareStatement(sql)方法
+            pstmt = conn.prepareStatement(sql);
+            pstmt.setString(1, "吕布5");
+            pstmt.setString(2, "貂蝉5");
+            int rows = pstmt.executeUpdate();
+            if(rows>0){
+                System.out.println("成功");
+            }else {
+                System.out.println("失败");
+            }
+        }catch (Exception e){
+            throw new RuntimeException(e);
+        }finally {
+            JDBCUtils_V4.release(conn, pstmt, null);
+        }
+    }
+
+
+    /**
+     * 使用未改造过的Connection
+     */
+    @Test
+    public void testAddUser(){
+        Connection conn = null;
+        PreparedStatement pstmt = null;
+//        创建自定义连接池对象
+        MyDataSource dataSource = new MyDataSource();
+        try {
+//            从池子获取连接对象
+            conn = dataSource.getConnection();
+            String sql = "insert into tbl_user values(null,?,?)";
+            pstmt = conn.prepareStatement(sql);
+            pstmt.setString(1, "吕布");
+            pstmt.setString(2, "貂蝉");
+            int rows = pstmt.executeUpdate();
+            if(rows>0){
+                System.out.println("成功");
+            }else {
+                System.out.println("失败");
+            }
+        }catch (Exception e){
+            throw new RuntimeException(e);
+        }finally {
+            dataSource.backConnection(conn);
+        }
+    }
+
+
+
     /*
      *
      * @param null
@@ -34,6 +101,7 @@ public class TestUtils {
         try {
             conn = JDBCUtils_V3.getConnection();
             String sql = "update tbl_user set upassword=? where uid=?";
+//            必须重写Connection类中的方法
             pstmt = conn.prepareStatement(sql);
             pstmt.setString(1, "666");
             pstmt.setString(2, "3");

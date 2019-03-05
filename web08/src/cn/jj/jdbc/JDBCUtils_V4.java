@@ -5,15 +5,7 @@ import java.io.InputStream;
 import java.sql.*;
 import java.util.Properties;
 
-/*
- *
- * @param null
- * @return
- * @author wuyanjiang
- * @date
- * @description 提供获取连接释放资源的方法
- */
-public class JDBCUtils_V3 {
+public class JDBCUtils_V4 {
     private static String driver;
     private static String url;
     private static String username;
@@ -70,18 +62,26 @@ public class JDBCUtils_V3 {
     }
 
     public static void release(Connection conn, PreparedStatement pstmt, ResultSet rs) {
-        try {
-            if (rs != null) {
+        if (rs != null) {
+            try {
                 rs.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
             }
-            if (pstmt != null) {
+        }
+        if (pstmt != null) {
+            try {
                 pstmt.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
             }
-            if (conn != null) {
+        }
+        if (conn != null) {
+            try {
                 conn.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
             }
-        } catch (SQLException e) {
-            System.out.println(e);
         }
     }
 }
