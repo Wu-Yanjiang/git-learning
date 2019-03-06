@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa95bcc7-b66f-4c9a-a8ef-1802d67d9e24" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/cn/jj/jdbc/test/TestDBUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/jj/jdbc/test/TestDBUtils.java" afterDir="false" />
-    </list>
+    <list default="true" id="fa95bcc7-b66f-4c9a-a8ef-1802d67d9e24" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/jj/jdbc/test/TestDBUtils2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-215">
-              <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+            <state relative-caret-position="90">
+              <caret line="91" column="36" selection-start-line="91" selection-start-column="36" selection-end-line="91" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;method#testQueyCount#1;class#TestDBUtils2#0" />
@@ -106,9 +104,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="752" />
-    <option name="width" value="621" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="676" />
+    <option name="width" value="697" />
     <option name="height" value="745" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -120,51 +118,6 @@
       <pane id="ProjectPane">
         <subPane>
           <expand>
-            <path>
-              <item name="web08" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web08" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web08" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web08" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web08" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web08" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jj" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web08" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web08" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jj" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web08" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web08" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jj" type="462c0819:PsiDirectoryNode" />
-              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web08" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web08" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jj" type="462c0819:PsiDirectoryNode" />
-              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web08" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web08" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jj" type="462c0819:PsiDirectoryNode" />
-              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
             <path>
               <item name="web08" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
@@ -333,7 +286,7 @@
       <option name="presentableId" value="Default" />
       <updated>1551605441015</updated>
       <workItem from="1551605450011" duration="14864000" />
-      <workItem from="1551681364771" duration="30536000" />
+      <workItem from="1551681364771" duration="31130000" />
     </task>
     <servers />
   </component>
@@ -370,13 +323,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45400000" />
+    <option name="totallyTimeSpent" value="45994000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <frame x="676" y="0" width="697" height="745" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.39215687" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.39089483" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -384,7 +336,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.38625205" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.33064517" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33551556" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -805,8 +757,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/jj/jdbc/test/TestDBUtils2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-215">
-          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+        <state relative-caret-position="90">
+          <caret line="91" column="36" selection-start-line="91" selection-start-column="36" selection-end-line="91" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#testQueyCount#1;class#TestDBUtils2#0" />
