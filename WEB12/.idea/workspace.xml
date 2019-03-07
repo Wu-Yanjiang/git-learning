@@ -7,7 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c92fc72d-7d3e-499f-a33b-d81b0cf21c06" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../WEB11_XML/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WEB11_XML/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WEB12/WebContent/WEB-INF/classes/com/itheima/servlet/MyFirstServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WEB12/WebContent/WEB-INF/classes/com/itheima/servlet/MyFirstServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/itheima/servlet/MyFirstServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itheima/servlet/MyFirstServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WEB_12/.idea/artifacts/WEB_12_ear_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WEB_12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WEB_12/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WEB_12/WEB_12.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../WEB_12/WEB_12.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,17 +26,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state relative-caret-position="126">
+              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/itheima/servlet/MyFirstServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="432">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#296#297#0" expanded="true" />
@@ -43,9 +48,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/artifacts/web12.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -66,6 +84,7 @@
       <list>
         <option value="$PROJECT_DIR$/form.html" />
         <option value="$PROJECT_DIR$/src/com/itheima/servlet/MyFirstServlet.java" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/web12.xml" />
       </list>
     </option>
   </component>
@@ -79,8 +98,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="697" />
-    <option name="height" value="745" />
+    <option name="width" value="818" />
+    <option name="height" value="717" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -96,6 +115,22 @@
             <path>
               <item name="WEB12" type="b2602c69:ProjectViewProjectNode" />
               <item name="WEB12" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WEB12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WEB12" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WEB12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WEB12" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WEB12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WEB12" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WEB12" type="b2602c69:ProjectViewProjectNode" />
@@ -343,12 +378,12 @@
       <updated>1551873976994</updated>
       <workItem from="1551873984264" duration="4680000" />
       <workItem from="1551942605074" duration="1989000" />
-      <workItem from="1551944654452" duration="1069000" />
+      <workItem from="1551944654452" duration="2380000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7738000" />
+    <option name="totallyTimeSpent" value="9049000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -363,7 +398,7 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.41601256" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18381241" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -371,15 +406,15 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.47419354" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.45322582" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.38548386" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32903227" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32903227" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.45763993" weight="0.32903227" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.5193548" />
       <window_info anchor="bottom" id="Application Servers" order="12" weight="0.27741936" />
       <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -395,9 +430,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WEB12.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms2.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -405,20 +437,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/itheima/servlet/MyFirstServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="432">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#296#297#0" expanded="true" />
@@ -426,6 +448,52 @@
             <element signature="e#524#525#0" expanded="true" />
             <element signature="e#551#552#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEB12.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/lib.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/WEB12/WebContent/WEB-INF/classes/com/itheima/servlet/MyFirstServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#1091#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1242" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/artifacts/web12.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
     </entry>

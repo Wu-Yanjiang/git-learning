@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="mysql-connector-java-5.1.7-bin">
+    <CLASSES>
+      <root url="jar://D:/BaiduNetdiskDownload/02_第2阶段-JavaEE就业班开发教程+实战项目（共34天）/01-JavaEE教程（第1-25天）/WEB08_MySQL&amp;JDBC回顾/WEB08_MySQL&amp;JDBC回顾/资料/mysql-connector-java-5.1.7/mysql-connector-java-5.1.7-bin.jar!/" />
+      <root url="jar://D:/BaiduNetdiskDownload/02_第2阶段-JavaEE就业班开发教程+实战项目（共34天）/01-JavaEE教程（第1-25天）/WEB10_JDBC连接池&amp;DBUtils/WEB10_JDBC连接池&amp;DBUtils/资料/c3p0/c3p0/c3p0-0.9.1.2.bin/c3p0-0.9.1.2/lib/c3p0-0.9.1.2.jar!/" />
+      <root url="jar://D:/BaiduNetdiskDownload/02_第2阶段-JavaEE就业班开发教程+实战项目（共34天）/01-JavaEE教程（第1-25天）/WEB10_JDBC连接池&amp;DBUtils/WEB10_JDBC连接池&amp;DBUtils/资料/dbutils/Apache dbutils/commons-dbutils-1.4-bin/commons-dbutils-1.4/commons-dbutils-1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

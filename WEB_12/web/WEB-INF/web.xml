@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>WEB12</display-name>
+
+    <servlet>
+        <servlet-name>MyFirstServlet</servlet-name>
+        <servlet-class>com.itheima.servlet.QuickStartServlet</servlet-class>
+
+        <init-param>
+            <param-name>url</param-name>
+            <param-value>jdbc:mysql</param-value>
+        </init-param>
+        <!--服务器启动时创建   数字越小，优先级越高-->
+        <load-on-startup>3</load-on-startup>
+    </servlet>
+    <!--Servlet虚拟路径配置-->
+    <servlet-mapping>
+        <servlet-name>MyFirstServlet</servlet-name>
+         <!--http协议访问时 资源的虚拟的路径 以/开始  完全匹配-->
+        <!--<url-pattern>/quickStartServlet</url-pattern>-->
+        <!--目录匹配-->
+        <!--<url-pattern>/aaa/bbb/ccc/*</url-pattern>-->
+        <!--扩展名匹配-->
+        <!--<url-pattern>*.abcd</url-pattern>-->
+        <!--目录匹配与扩展名匹配不能混用 如： /aa/bb/cc.abcd-->
+        <!--缺省的servlet配置  当访问的servlet都不匹配时，缺省的servlet负责处理-->
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>QuickStartServlet2</servlet-name>
+        <servlet-class>com.itheima.servlet.QuickStartServlet2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>QuickStartServlet2</servlet-name>
+        <url-pattern>/quickStartServlet2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>loginServlet</servlet-name>
+        <servlet-class>com.itheima.loginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>loginServlet</servlet-name>
+        <url-pattern>/login.html</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+        <welcome-file>index.htm</welcome-file>
+        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>default.html</welcome-file>
+        <welcome-file>default.htm</welcome-file>
+        <welcome-file>default.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>

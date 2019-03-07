@@ -20,7 +20,7 @@ public class MyFirstServlet implements Servlet {
         //专门向客户端提供响应的方法
         HttpServletResponse response = (HttpServletResponse) servletResponse;
         response.getWriter().write("This is my first servlet");
-        response.getWriter().write("<h1 sytle='color : red'>Hello World.</h>");
+        response.getWriter().write("<h1 sytle='color : red'>Hello World.</h1>");
 
     }
 
