@@ -8,11 +8,14 @@
   <component name="ChangeListManager">
     <list default="true" id="c92fc72d-7d3e-499f-a33b-d81b0cf21c06" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WEB12/WebContent/WEB-INF/classes/com/itheima/servlet/MyFirstServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WEB12/WebContent/WEB-INF/classes/com/itheima/servlet/MyFirstServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/itheima/servlet/MyFirstServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itheima/servlet/MyFirstServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WEB_12/.idea/artifacts/WEB_12_ear_exploded.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../WEB_12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WEB_12/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WEB_12/WEB_12.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../WEB_12/WEB_12.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WEB_12/out/artifacts/WEB_12_war_exploded/WEB-INF/classes/com/itheima/loginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WEB_12/out/artifacts/WEB_12_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WEB_12/out/artifacts/WEB_12_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WEB_12/out/artifacts/WEB_12_war_exploded/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WEB_12/out/artifacts/WEB_12_war_exploded/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WEB_12/out/production/WEB_12/com/itheima/loginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WEB_12/src/com/itheima/loginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WEB_12/src/com/itheima/login/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WEB_12/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WEB_12/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WEB_12/web/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WEB_12/web/login.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +26,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/form.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
@@ -35,33 +38,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/itheima/servlet/MyFirstServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="324">
+              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-                <element signature="e#524#525#0" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/artifacts/web12.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+            <state relative-caret-position="198">
+              <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -109,17 +99,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="WEB12" type="b2602c69:ProjectViewProjectNode" />
               <item name="WEB12" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WEB12" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WEB12" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WEB12" type="b2602c69:ProjectViewProjectNode" />
@@ -148,14 +134,13 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/Program Files (x86)/apache-tomcat-9.0.16-windows-x64/apache-tomcat-9.0.16/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -379,11 +364,12 @@
       <workItem from="1551873984264" duration="4680000" />
       <workItem from="1551942605074" duration="1989000" />
       <workItem from="1551944654452" duration="2380000" />
+      <workItem from="1551968065851" duration="52000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9049000" />
+    <option name="totallyTimeSpent" value="9101000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -398,11 +384,13 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18381241" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18683812" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.47419354" />
@@ -437,20 +425,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itheima/servlet/MyFirstServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WEB12.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -476,13 +450,6 @@
         <state relative-caret-position="-1242" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/artifacts/web12.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -492,8 +459,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        <state relative-caret-position="198">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/itheima/servlet/MyFirstServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
         </state>
       </provider>
     </entry>
