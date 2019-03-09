@@ -40,7 +40,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>LoginServlet</servlet-name>
-        <url-pattern>/</url-pattern>
+        <url-pattern>/web/login</url-pattern>
         <!--<url-pattern>/WEB_12/web/login</url-pattern>-->
     </servlet-mapping>
 
@@ -54,6 +54,23 @@
     </servlet-mapping>
 
 
+    <servlet>
+        <servlet-name>ContextServlet</servlet-name>
+        <servlet-class>com.itheima.context.ContextServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ContextServlet</servlet-name>
+        <url-pattern>/context</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ContextServlet2</servlet-name>
+        <servlet-class>com.itheima.context.ContextServlet2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ContextServlet2</servlet-name>
+        <url-pattern>/context2</url-pattern>
+    </servlet-mapping>
 
 
 

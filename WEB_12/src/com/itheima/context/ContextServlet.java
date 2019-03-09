@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class ContextServlet extends HttpServlet {
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) {
         //获得ServletContext对象
         //作用：
         //获得web应用全局初始化参数
@@ -31,6 +31,19 @@ public class ContextServlet extends HttpServlet {
         System.out.println(realPath_C);
         //d.txt
         //获取不到
+
+        //获得c.txt
+        //在读取src(classes)下的资源是可以同类加载器--专门加载classes下的文件
+        String path = ContextServlet.class.getClassLoader().getResource("c").getPath();
+        System.out.println(path);
+
+//        ServletContext是一个域对象
+        //存储数据的区域，就是域对象
+        //作用范围，整个web应用（所有的web资源都可以向servletcontext域中存储
+        //域对象：向servletcontext存数据
+        System.out.println("ContextServlet set name: zhangsan");
+        context.setAttribute("name", "zhangsan");
+
 
 
     }
