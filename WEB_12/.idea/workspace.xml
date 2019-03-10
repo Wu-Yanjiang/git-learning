@@ -7,15 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0c4ebe0-a6bc-4b24-ad0e-c076a051953f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/WEB_12_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/WEB_12_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WEB_12_war_exploded/WEB-INF/classes/com/itheima/context/ContextServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WEB_12_war_exploded/WEB-INF/classes/com/itheima/context/ContextServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WEB_12_war_exploded/WEB-INF/classes/com/leetcode/GroupAnagrams.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WEB_12_war_exploded/WEB-INF/classes/com/leetcode/GroupAnagrams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WEB_12_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WEB_12_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WEB_12/com/itheima/context/ContextServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WEB_12/com/itheima/context/ContextServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/itheima/context/ContextServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itheima/context/ContextServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/itheima/login/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itheima/login/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/itheima/context/ContextServlet2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+            <state relative-caret-position="324">
+              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
               <folding>
                 <element signature="e#408#409#0" expanded="true" />
                 <element signature="e#448#449#0" expanded="true" />
@@ -54,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/itheima/login/LoginServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="48" column="108" selection-start-line="48" selection-start-column="108" selection-end-line="48" selection-end-column="108" />
+            <state relative-caret-position="298">
+              <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,9 +96,9 @@
         <option value="$PROJECT_DIR$/src/com/leetcode/GroupAnagrams.java" />
         <option value="$PROJECT_DIR$/web/login.html" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/com/itheima/context/ContextServlet2.java" />
         <option value="$PROJECT_DIR$/src/com/itheima/context/ContextServlet.java" />
         <option value="$PROJECT_DIR$/src/com/itheima/login/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/itheima/context/ContextServlet2.java" />
       </list>
     </option>
   </component>
@@ -118,7 +110,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="753" />
+    <option name="x" value="236" />
     <option name="width" value="890" />
     <option name="height" value="788" />
   </component>
@@ -130,67 +122,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="WEB_12" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WEB_12" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WEB_12" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WEB_12" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WEB_12" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WEB_12" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WEB_12" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WEB_12" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WEB_12" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WEB_12" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="itheima" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WEB_12" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WEB_12" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="itheima" type="462c0819:PsiDirectoryNode" />
-              <item name="context" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WEB_12" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WEB_12" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="itheima" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WEB_12" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WEB_12" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WEB_12" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WEB_12" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -398,7 +330,7 @@
       <option name="presentableId" value="Default" />
       <updated>1551946808278</updated>
       <workItem from="1551946812867" duration="1042000" />
-      <workItem from="1551947998304" duration="42256000" />
+      <workItem from="1551947998304" duration="43958000" />
     </task>
     <servers />
   </component>
@@ -435,7 +367,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43298000" />
+    <option name="totallyTimeSpent" value="45000000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -447,10 +379,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="236" y="0" width="890" height="788" extended-state="0" />
     <layout>
       <window_info id="JavaEE:App" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4938838" weight="0.27760968" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4938838" visible="true" weight="0.27710843" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" sideWeight="0.5061162" side_tool="true" weight="0.3037037" />
       <window_info id="Designer" order="3" />
@@ -459,7 +391,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32903227" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3853211" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" visible="true" weight="0.43709677" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.4587156" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
@@ -789,23 +721,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itheima/context/ContextServlet2.java">
+    <entry file="file://$PROJECT_DIR$/src/com/itheima/login/LoginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        <state relative-caret-position="298">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
           <folding>
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itheima/login/LoginServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/com/itheima/context/ContextServlet2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="48" column="108" selection-start-line="48" selection-start-column="108" selection-end-line="48" selection-end-column="108" />
+        <state relative-caret-position="324">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
           </folding>
         </state>
       </provider>

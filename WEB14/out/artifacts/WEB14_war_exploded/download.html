@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--浏览器不能解析的，会直接下载-->
+<!--实际开发中，只要是要下载的文件都编写文件下载代码-->
+<h1>使用a标签指向服务器上资源</h1>
+<a href="/WEB14/download/美女.jpg">美女.jpg</a><br>
+<a href="/WEB14/download/a.flv">a.flv</a><br>
+<a href="/WEB14/download/a.jpg">a.jpg</a><br>
+<a href="/WEB14/download/a.mp3">a.mp3</a><br>
+<a href="/WEB14/download/a.mp4">a.mp4</a><br>
+<a href="/WEB14/download/a.txt">a.txt</a><br>
+<a href="/WEB14/download/a.zip">a.zip</a><br>
+
+<h1>使用服务器编码的方式实现下载</h1>
+<a href="/WEB14/downloadServlet2?filename=美女.jpg">美女.jpg</a><br>
+<a href="/WEB14/downloadServlet?filename=a.flv">a.flv</a><br>
+<a href="/WEB14/downloadServlet?filename=a.jpg">a.jpg</a><br>
+<a href="/WEB14/downloadServlet?filename=a.mp3">a.mp3</a><br>
+<a href="/WEB14/downloadServlet?filename=a.mp4">a.mp4</a><br>
+<a href="/WEB14/downloadServlet?filename=a.txt">a.txt</a><br>
+<a href="/WEB14/downloadServlet?filename=a.zip">a.zip</a><br>
+
+
+</body>
+
+</html>
