@@ -1,0 +1,2 @@
+crackCheck()可能有问题
+controlSnake()不应该有移动的动作
