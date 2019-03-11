@@ -7,9 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="024982f5-8669-471e-9624-11401fde2603" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WEB15_war_exploded/WEB-INF/classes/com/itheima/register/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WEB15_war_exploded/WEB-INF/classes/com/itheima/register/RegisterServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WEB15/com/itheima/register/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WEB15/com/itheima/register/RegisterServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/itheima/register/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itheima/register/RegisterServlet.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/itheima/register/RegisterServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="456">
+              <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,10 +82,10 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="397" />
-    <option name="y" value="-22" />
-    <option name="width" value="1386" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="817" />
+    <option name="y" value="26" />
+    <option name="width" value="1272" />
     <option name="height" value="745" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -141,6 +138,20 @@
             <path>
               <item name="WEB15" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="WEB15" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="mysql-connector-java-5.0.4-bin" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="WEB15" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Tomcat 9.0.16" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="WEB15" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
@@ -255,18 +266,18 @@
       <option name="presentableId" value="Default" />
       <updated>1552281013677</updated>
       <workItem from="1552281030925" duration="34000" />
-      <workItem from="1552281210679" duration="8435000" />
+      <workItem from="1552281210679" duration="10334000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8469000" />
+    <option name="totallyTimeSpent" value="10368000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="817" y="26" width="1272" height="745" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2708018" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2708018" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -276,7 +287,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.5096774" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45322582" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -298,18 +309,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/itheima/register/RegisterServlet.java</url>
-          <line>41</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/itheima/utils.java">
@@ -379,8 +378,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/itheima/register/RegisterServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="456">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
