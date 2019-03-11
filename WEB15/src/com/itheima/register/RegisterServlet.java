@@ -39,34 +39,36 @@ public class RegisterServlet extends HttpServlet {
         User user = new User();
         try {
             BeanUtils.populate(user, properties);
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (InvocationTargetException e) {
+        } catch (IllegalAccessException | InvocationTargetException e) {
             e.printStackTrace();
         }
 
         //现在User对象已经封装好
-        //手动封装uid-----uuid----随机不重复字符串--Java代码生成后是36位
+        //手动封装uid-----uuid----随机不重复字符串32位--Java代码生成后是36位
         user.setUid(UUID.randomUUID().toString());
 
         //将参数传递给一个业务操作方法
-        register(user);
+        try {
+            register(user);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        //注册成功跳转登录页面
+        response.sendRedirect(request.getContextPath() + "/lgin.jsp");
 
 
     }
 
     //注册的方法
-    public void register(User user) {
+    public void register(User user) throws SQLException {
         //操作数据库
         QueryRunner runner = new QueryRunner(DataSourceUtils.getDataSource());
         String sql = "insert into user values(?,?,?,?,?,?,?,?,?,?)";
-        try {
-            runner.update(sql, user.getUid(), user.getUsername(), user.getPassword(),
-                    user.getName(), user.getEmail(), null, user.getBirthday(),
-                    user.getSex(), null, null);
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+
+        runner.update(sql, user.getUid(), user.getUsername(), user.getPassword(),
+                user.getName(), user.getEmail(), null, user.getBirthday(),
+                user.getSex(), null, null);
 
 
     }
