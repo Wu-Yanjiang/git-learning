@@ -49,14 +49,14 @@ public class RegisterServlet extends HttpServlet {
         Map<String, String[]> properties = request.getParameterMap();
         User user = new User();
         try {
-            //这里有一个异常不知道怎么解决
+            /******这里有一个异常不知道怎么解决，想想办法手动实现这个过程吧！**********/
             BeanUtils.populate(user, properties);
         } catch (IllegalAccessException | InvocationTargetException e) {
             e.printStackTrace();
         }
 
         //现在User对象已经封装好
-        //手动封装uid-----uuid----随机不重复字符串32位--Java代码生成后是36位
+        //手动封装uid-----uuid----随机不重复字符串32位--Java代码生成后是36位,4个小杠
         user.setUid(UUID.randomUUID().toString());
 
         //将参数传递给一个业务操作方法
@@ -67,6 +67,7 @@ public class RegisterServlet extends HttpServlet {
         }
 
         //注册成功跳转登录页面
+        //提高复用性用getContextPath(),避免项目名改变
         response.sendRedirect(request.getContextPath() + "/login.jsp");
 
 
@@ -79,8 +80,7 @@ public class RegisterServlet extends HttpServlet {
         String sql = "insert into user values(?,?,?,?,?,?,?,?,?,?)";
 
         runner.update(sql, user.getUid(), user.getUsername(), user.getPassword(),
-                user.getName(), user.getEmail(), null, user.getBirthday(),
-                user.getSex(), null, null);
+                user.getName(), user.getEmail(), null, user.getBirthday(), user.getSex(), null, null);
 
 
     }
