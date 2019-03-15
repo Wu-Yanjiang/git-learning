@@ -5,6 +5,10 @@ import org.junit.Test;
 import javax.servlet.ServletException;
 import javax.servlet.http.*;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.LinkedList;
 
 public class SessionServlet1 extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -45,13 +49,13 @@ public class SessionServlet1 extends HttpServlet {
                 total++;
         }
 
-        int k=0;
-        for (int i=0; i<nums.length; i++){
-            if (0 == nums[i]){
+        int k = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (0 == nums[i]) {
                 k++;
                 continue;
             }
-            nums[i-k] = nums[i];
+            nums[i - k] = nums[i];
         }
         //k = 0
         //
@@ -64,5 +68,35 @@ public class SessionServlet1 extends HttpServlet {
         for (int i = (nums.length - total); i < nums.length; i++) {
             nums[i] = 0;
         }
+    }
+
+    @Test
+    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+        double ans = 0;
+        int[] nn = new int[nums1.length + nums2.length];
+
+        int i = 0;
+        int j = 0;
+        int k = 0;
+
+        while (j<nums1.length)
+            nn[i++] = nums1[j++];
+        while (k<nums2.length)
+            nn[i++] = nums2[k++];
+
+        Arrays.sort(nn);
+
+        int length = nums1.length + nums2.length;
+        if (0 == length % 2) {
+            ans = (double) (nn[length / 2] + nn[length / 2 - 1]) / 2;
+        } else {
+            ans = (double) nn[length / 2];
+        }
+
+        for (int tmp : nn){
+            System.out.print( tmp + " ");
+        }
+
+        return ans;
     }
 }
