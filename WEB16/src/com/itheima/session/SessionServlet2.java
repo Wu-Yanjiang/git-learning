@@ -18,7 +18,7 @@ public class SessionServlet2 extends HttpServlet {
         HttpSession session = request.getSession();
         String attribute = (String) session.getAttribute("name");
 
-        response.getWriter().write(attribute);
+        response.getWriter().write(attribute + "");
 
         /* 第一次getSession()创建 */
         /* 服务器（非正常）关闭
