@@ -5,10 +5,7 @@ import org.junit.Test;
 import javax.servlet.ServletException;
 import javax.servlet.http.*;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.LinkedList;
+import java.util.*;
 
 public class SessionServlet1 extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -79,9 +76,9 @@ public class SessionServlet1 extends HttpServlet {
         int j = 0;
         int k = 0;
 
-        while (j<nums1.length)
+        while (j < nums1.length)
             nn[i++] = nums1[j++];
-        while (k<nums2.length)
+        while (k < nums2.length)
             nn[i++] = nums2[k++];
 
         Arrays.sort(nn);
@@ -93,10 +90,25 @@ public class SessionServlet1 extends HttpServlet {
             ans = (double) nn[length / 2];
         }
 
-        for (int tmp : nn){
-            System.out.print( tmp + " ");
+        for (int tmp : nn) {
+            System.out.print(tmp + " ");
         }
 
+        return ans;
+    }
+
+    @Test
+    public boolean containsDuplicate(int[] nums) {
+        boolean ans = false;
+        Set<Integer> s = new HashSet<>();
+        for (int i : nums) {
+            if (s.contains(i)) {
+                ans = true;
+                break;
+            } else {
+                s.add(i);
+            }
+        }
         return ans;
     }
 }
