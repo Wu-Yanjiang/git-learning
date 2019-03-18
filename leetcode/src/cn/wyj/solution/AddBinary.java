@@ -69,4 +69,24 @@ public class AddBinary {
 
         return ans.toString();
     }
+
+    public String addBinary2(String a, String b) {
+        int p_a = a.length() - 1;
+        int p_b = b.length() - 1;
+        int carry = 0;
+        int sum = 0;
+        StringBuilder ans = new StringBuilder();
+        while (p_a >= 0 || p_b >= 0) {
+            sum = carry;
+            if (p_a >= 0) sum += a.charAt(p_a--) - '0';
+            if (p_b >= 0) sum += b.charAt(p_b--) - '0';
+
+            carry = sum / 2;
+            ans.append(sum % 2);
+        }
+        if (carry != 0)
+            return ans.append("1").reverse().toString();
+        else
+            return ans.reverse().toString();
+    }
 }

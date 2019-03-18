@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa665eb6-023c-4501-b84f-406e1d8c4d06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WEB16/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WEB16/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WEB16/WEB16.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../WEB16/WEB16.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WEB16/src/com/itheima/session/SessionServlet1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WEB16/src/com/itheima/session/SessionServlet1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/wyj/solution/AddBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/wyj/solution/AddBinary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/wyj/solution/AddBinaryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/wyj/solution/AddBinaryTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,20 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/AddBinary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="53" column="42" lean-forward="true" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+            <state relative-caret-position="444">
+              <caret line="89" column="12" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/AddBinaryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+            <state relative-caret-position="432">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -51,8 +50,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/cn/wyj/solution/AddBinary.java" />
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/AddBinaryTest.java" />
+        <option value="$PROJECT_DIR$/src/cn/wyj/solution/AddBinary.java" />
       </list>
     </option>
   </component>
@@ -139,7 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AddBinaryTest.addBinary">
+  <component name="RunManager" selected="JUnit.AddBinaryTest.addBinary2">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="cn.wyj.Main" />
       <module name="leetcode" />
@@ -188,13 +187,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AddBinaryTest.addBinary2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.wyj.solution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.wyj.solution" />
+      <option name="MAIN_CLASS_NAME" value="cn.wyj.solution.AddBinaryTest" />
+      <option name="METHOD_NAME" value="addBinary2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Arquillian JUnit.Manual container configuration: AddBinaryTest.addBinary" />
       <item itemvalue="JUnit.AddBinaryTest.addBinary" />
+      <item itemvalue="JUnit.AddBinaryTest.addBinary2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AddBinaryTest.addBinary2" />
         <item itemvalue="JUnit.AddBinaryTest.addBinary" />
         <item itemvalue="Arquillian JUnit.Manual container configuration: AddBinaryTest.addBinary" />
         <item itemvalue="Application.Main" />
@@ -211,26 +228,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552898149165</updated>
-      <workItem from="1552898154795" duration="2083000" />
+      <workItem from="1552898154795" duration="3457000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddBinaryTest_addBinary - 2019.03.18 at 16h 59m 45s.xml">
-      <configuration name="AddBinaryTest.addBinary" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddBinaryTest_addBinary - 2019.03.18 at 17h 00m 56s.xml">
-      <configuration name="AddBinaryTest.addBinary" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddBinaryTest_addBinary - 2019.03.18 at 17h 01m 12s.xml">
-      <configuration name="AddBinaryTest.addBinary" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddBinaryTest_addBinary - 2019.03.18 at 17h 01m 36s.xml">
-      <configuration name="AddBinaryTest.addBinary" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddBinaryTest_addBinary - 2019.03.18 at 17h 02m 12s.xml">
-      <configuration name="AddBinaryTest.addBinary" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AddBinaryTest_addBinary - 2019.03.18 at 17h 02m 51s.xml">
       <configuration name="AddBinaryTest.addBinary" configurationId="JUnit" />
     </history-entry>
@@ -246,9 +248,24 @@
     <history-entry file="AddBinaryTest_addBinary - 2019.03.18 at 17h 06m 53s.xml">
       <configuration name="AddBinaryTest.addBinary" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AddBinaryTest_addBinary - 2019.03.18 at 17h 11m 18s.xml">
+      <configuration name="AddBinaryTest.addBinary" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddBinaryTest_addBinary - 2019.03.18 at 17h 12m 05s.xml">
+      <configuration name="AddBinaryTest.addBinary" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddBinaryTest_addBinary2 - 2019.03.18 at 17h 29m 41s.xml">
+      <configuration name="AddBinaryTest.addBinary2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddBinaryTest_addBinary2 - 2019.03.18 at 17h 31m 11s.xml">
+      <configuration name="AddBinaryTest.addBinary2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddBinaryTest_addBinary2 - 2019.03.18 at 17h 32m 12s.xml">
+      <configuration name="AddBinaryTest.addBinary2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2083000" />
+    <option name="totallyTimeSpent" value="3457000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -317,17 +334,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/AddBinary.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/AddBinaryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="53" column="42" lean-forward="true" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+        <state relative-caret-position="432">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/AddBinaryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/AddBinary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        <state relative-caret-position="444">
+          <caret line="89" column="12" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="12" />
         </state>
       </provider>
     </entry>
