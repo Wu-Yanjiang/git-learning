@@ -8,10 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8bd602bb-6419-4771-91d4-c9876453ef28" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../leetcode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode/out/production/leetcode/cn/wyj/solution/AddBinary.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode/out/production/leetcode/cn/wyj/solution/AddBinary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode/out/production/leetcode/cn/wyj/solution/AddBinaryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode/out/production/leetcode/cn/wyj/solution/AddBinaryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode/src/cn/wyj/solution/AddBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode/src/cn/wyj/solution/AddBinary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode/src/cn/wyj/solution/AddBinaryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode/src/cn/wyj/solution/AddBinaryTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -239,7 +235,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49074075" weight="0.23373677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
