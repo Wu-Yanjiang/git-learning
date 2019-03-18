@@ -1,5 +1,6 @@
 package com.itheima.session;
 
+import org.jetbrains.annotations.NotNull;
 import org.junit.Test;
 
 import javax.servlet.ServletException;
@@ -97,18 +98,89 @@ public class SessionServlet1 extends HttpServlet {
         return ans;
     }
 
-    @Test
     public boolean containsDuplicate(int[] nums) {
-        boolean ans = false;
         Set<Integer> s = new HashSet<>();
         for (int i : nums) {
-            if (s.contains(i)) {
-                ans = true;
-                break;
-            } else {
-                s.add(i);
+            if (s.contains(i))
+                return true;
+            s.add(i);
+        }
+        return false;
+    }
+
+    public void merge(int[] nums1, int m, int[] nums2, int n) {
+        int n2_p = 0;
+        for (int i = 0; i < m + n; i++) {
+            if (0 == nums1[i]) {
+                nums1[i] = nums2[n2_p];
+                if (n2_p++ == n)
+                    break;
             }
         }
-        return ans;
+
+        Arrays.sort(nums1);
     }
+
+    public int mySqrt(int x) {
+
+        return (int) Math.sqrt(x);
+    }
+
+    /**
+     * @param a
+     * @param b
+     * @return a + b 二进制
+     */
+    //  1 0 1 0
+    //  1 0 1 1
+    //-----------
+    //1 0 1 0 1
+    @NotNull
+    private String addBinary(String a, String b) {
+        StringBuilder ans = new StringBuilder();
+        int length = a.length() > b.length() ? a.length() : b.length();
+        int[] a1 = new int[length + 1];
+        int[] b1 = new int[length + 1];
+        int index = a.length() - 1, i = 0;
+
+        while (index != -1) {
+            a1[i++] = a.charAt(index--) - '0';
+        }
+
+        index = b.length() - 1;
+        i = 0;
+        while (index != -1) {
+            b1[i++] = b.charAt(index--) - '0';
+        }
+
+        int carry = 0;
+        int value = 0;
+        for (int j = 0; j < a1.length; j++) {
+            value = a1[j] ^ b1[j] ^ carry;
+            carry = a1[j] & b1[j] | a1[j] & carry | b1[j] & b1[j];
+            a1[j] = value;
+        }
+
+        index = a1.length - 1;
+        while (a1[index] != 0) {
+            index--;
+        }
+
+        while (index >= 0) {
+            ans.append(a1[index] + '0');
+        }
+
+        return ans.toString();
+    }
+
+    /**a b c v c
+     * 0 0 0 0 0
+     * 0 0 1 1 0
+     * 0 1 0 1 0
+     * 0 1 1 0 1
+     * 1 0 0 1 0
+     * 1 0 1 0 1
+     * 1 1 0 0 1
+     * 1 1 1 1 1
+     */
 }
