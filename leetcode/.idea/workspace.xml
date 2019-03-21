@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa665eb6-023c-4501-b84f-406e1d8c4d06" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../WEB16/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WEB16/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WEB16/out/production/WEB16/com/itheima/cookie/GetCookieServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WEB16/out/production/WEB16/com/itheima/cookie/RemoveCookieServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WEB16/out/production/WEB16/com/itheima/cookie/SendCookieServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WEB16/out/production/WEB16/com/itheima/lastaccesstime/LastAccessTimeServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WEB16/out/production/WEB16/com/itheima/session/SessionServlet1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WEB16/out/production/WEB16/com/itheima/session/SessionServlet2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fa665eb6-023c-4501-b84f-406e1d8c4d06" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,10 +12,48 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/SumEvenAfterQueries.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/AddToArrayForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="62" selection-end-column="19" />
+            <state relative-caret-position="534">
+              <caret line="81" column="19" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://E:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-126">
+              <caret line="165" column="11" selection-start-line="165" selection-start-column="11" selection-end-line="165" selection-end-column="11" />
+              <folding>
+                <element signature="e#6336#6337#0" expanded="true" />
+                <element signature="e#6404#6405#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://E:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/math/BigInteger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="1181" column="12" selection-start-line="1181" selection-start-column="12" selection-end-line="1181" selection-end-column="12" />
+              <folding>
+                <element signature="e#26551#26552#0" expanded="true" />
+                <element signature="e#26580#26581#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://E:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Collections.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="375" column="23" selection-start-line="375" selection-start-column="23" selection-end-line="375" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -57,6 +86,7 @@
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/Pascals_TriangleTest.java" />
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/Pascals_Triangle.java" />
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/SumEvenAfterQueries.java" />
+        <option value="$PROJECT_DIR$/src/cn/wyj/solution/AddToArrayForm.java" />
       </list>
     </option>
   </component>
@@ -258,7 +288,7 @@
       <option name="presentableId" value="Default" />
       <updated>1552898149165</updated>
       <workItem from="1552898154795" duration="13082000" />
-      <workItem from="1553095156345" duration="1858000" />
+      <workItem from="1553095156345" duration="11055000" />
     </task>
     <servers />
   </component>
@@ -295,7 +325,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14940000" />
+    <option name="totallyTimeSpent" value="24137000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -392,17 +422,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="180" column="66" selection-start-line="180" selection-start-column="66" selection-end-line="180" selection-end-column="66" />
-          <folding>
-            <element signature="e#6336#6337#0" expanded="true" />
-            <element signature="e#6404#6405#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -431,10 +450,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://E:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="375" column="23" selection-start-line="375" selection-start-column="23" selection-end-line="375" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/SumEvenAfterQueries.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="62" selection-end-column="19" />
+        <state relative-caret-position="-384">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/math/BigInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="1181" column="12" selection-start-line="1181" selection-start-column="12" selection-end-line="1181" selection-end-column="12" />
+          <folding>
+            <element signature="e#26551#26552#0" expanded="true" />
+            <element signature="e#26580#26581#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126">
+          <caret line="165" column="11" selection-start-line="165" selection-start-column="11" selection-end-line="165" selection-end-column="11" />
+          <folding>
+            <element signature="e#6336#6337#0" expanded="true" />
+            <element signature="e#6404#6405#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/AddToArrayForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="81" column="19" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
