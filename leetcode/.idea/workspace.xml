@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa665eb6-023c-4501-b84f-406e1d8c4d06" name="Default Changelist" comment="" />
+    <list default="true" id="fa665eb6-023c-4501-b84f-406e1d8c4d06" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/cn/wyj/solution/ContainerWithMostWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/wyj/solution/ContainerWithMostWaterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/wyj/solution/JumpGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,32 +17,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/HappyNumber.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/ContainerWithMostWater.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/HappyNumberTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="18" column="55" lean-forward="true" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
-              <folding>
-                <element signature="e#314#315#0" expanded="true" />
-                <element signature="e#362#363#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/LinkedListCycleII.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/JumpGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+            <state relative-caret-position="270">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/ContainerWithMostWaterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="17" selection-start-line="11" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/IsCousin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="362">
+              <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -78,6 +88,9 @@
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/HappyNumber.java" />
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/HappyNumberTest.java" />
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/LinkedListCycleII.java" />
+        <option value="$PROJECT_DIR$/src/cn/wyj/solution/ContainerWithMostWaterTest.java" />
+        <option value="$PROJECT_DIR$/src/cn/wyj/solution/ContainerWithMostWater.java" />
+        <option value="$PROJECT_DIR$/src/cn/wyj/solution/JumpGame.java" />
       </list>
     </option>
   </component>
@@ -101,24 +114,6 @@
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wyj" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wyj" type="462c0819:PsiDirectoryNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -164,7 +159,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HappyNumberTest.isHappy">
+  <component name="RunManager" selected="JUnit.ContainerWithMostWaterTest.maxArea2">
+    <configuration name="ContainerWithMostWaterTest.maxArea2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.wyj.solution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.wyj.solution" />
+      <option name="MAIN_CLASS_NAME" value="cn.wyj.solution.ContainerWithMostWaterTest" />
+      <option name="METHOD_NAME" value="maxArea2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindWordsTest.findWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
@@ -213,22 +224,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pascals_TriangleTest.generate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.wyj.solution.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.wyj.solution" />
-      <option name="MAIN_CLASS_NAME" value="cn.wyj.solution.Pascals_TriangleTest" />
-      <option name="METHOD_NAME" value="generate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Pascals_TriangleTest.generate2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
@@ -246,19 +241,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Pascals_TriangleTest.generate" />
       <item itemvalue="JUnit.Pascals_TriangleTest.generate2" />
       <item itemvalue="JUnit.FindWordsTest.findWords" />
       <item itemvalue="JUnit.HappyNumberTest.isHappy" />
       <item itemvalue="JUnit.HappyNumberTest.isHappy2" />
+      <item itemvalue="JUnit.ContainerWithMostWaterTest.maxArea2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ContainerWithMostWaterTest.maxArea2" />
         <item itemvalue="JUnit.HappyNumberTest.isHappy" />
         <item itemvalue="JUnit.HappyNumberTest.isHappy2" />
         <item itemvalue="JUnit.FindWordsTest.findWords" />
         <item itemvalue="JUnit.Pascals_TriangleTest.generate2" />
-        <item itemvalue="JUnit.Pascals_TriangleTest.generate" />
       </list>
     </recent_temporary>
   </component>
@@ -273,20 +268,11 @@
       <option name="presentableId" value="Default" />
       <updated>1552898149165</updated>
       <workItem from="1552898154795" duration="13082000" />
-      <workItem from="1553095156345" duration="31425000" />
+      <workItem from="1553095156345" duration="33141000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HappyNumberTest_isHappy2 - 2019.03.22 at 18h 43m 15s.xml">
-      <configuration name="HappyNumberTest.isHappy2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HappyNumberTest_isHappy2 - 2019.03.22 at 18h 44m 03s.xml">
-      <configuration name="HappyNumberTest.isHappy2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HappyNumberTest_isHappy - 2019.03.22 at 18h 44m 16s.xml">
-      <configuration name="HappyNumberTest.isHappy" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HappyNumberTest_isHappy2 - 2019.03.22 at 20h 02m 12s.xml">
       <configuration name="HappyNumberTest.isHappy2" configurationId="JUnit" />
     </history-entry>
@@ -308,15 +294,23 @@
     <history-entry file="HappyNumberTest_isHappy - 2019.03.22 at 20h 56m 54s.xml">
       <configuration name="HappyNumberTest.isHappy" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ContainerWithMostWaterTest_maxArea2 - 2019.03.22 at 22h 19m 00s.xml">
+      <configuration name="ContainerWithMostWaterTest.maxArea2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContainerWithMostWaterTest_maxArea2 - 2019.03.22 at 22h 19m 34s.xml">
+      <configuration name="ContainerWithMostWaterTest.maxArea2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContainerWithMostWaterTest_maxArea2 - 2019.03.22 at 22h 21m 02s.xml">
+      <configuration name="ContainerWithMostWaterTest.maxArea2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44507000" />
+    <option name="totallyTimeSpent" value="46223000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18078668" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22087745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -333,7 +327,7 @@
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info active="true" anchor="bottom" id="Debug" order="12" visible="true" weight="0.23548387" />
+      <window_info anchor="bottom" id="Debug" order="12" visible="true" weight="0.31612903" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Maven" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -512,13 +506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/IsCousin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/PriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3232">
@@ -630,6 +617,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/ContainerWithMostWater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/ContainerWithMostWaterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="17" selection-start-line="11" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/IsCousin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/JumpGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
