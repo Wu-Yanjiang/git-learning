@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa665eb6-023c-4501-b84f-406e1d8c4d06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/wyj/solution/ContainerWithMostWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/wyj/solution/ContainerWithMostWaterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/wyj/solution/JumpGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/wyj/solution/JumpGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/wyj/solution/JumpGame.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,38 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/ContainerWithMostWater.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/JumpGame.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/MinimumMovesToEqualArrayElements.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="54">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/ContainerWithMostWaterTest.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/MinimumMovesToEqualArrayElementsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="17" selection-start-line="11" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/IsCousin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+            <state relative-caret-position="198">
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -58,8 +37,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Arquillian JUnit Test Class" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -90,7 +69,11 @@
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/LinkedListCycleII.java" />
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/ContainerWithMostWaterTest.java" />
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/ContainerWithMostWater.java" />
+        <option value="$PROJECT_DIR$/src/cn/wyj/solution/JumpGameTest.java" />
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/JumpGame.java" />
+        <option value="$PROJECT_DIR$/src/cn/wyj/solution/JumpGameII.java" />
+        <option value="$PROJECT_DIR$/src/cn/wyj/solution/MinimumMovesToEqualArrayElementsTest.java" />
+        <option value="$PROJECT_DIR$/src/cn/wyj/solution/MinimumMovesToEqualArrayElements.java" />
       </list>
     </option>
   </component>
@@ -114,6 +97,24 @@
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="wyj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="wyj" type="462c0819:PsiDirectoryNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -159,7 +160,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ContainerWithMostWaterTest.maxArea2">
+  <component name="RunManager" selected="JUnit.MinimumMovesToEqualArrayElementsTest.minMoves">
     <configuration name="ContainerWithMostWaterTest.maxArea2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
@@ -171,22 +172,6 @@
       <option name="PACKAGE_NAME" value="cn.wyj.solution" />
       <option name="MAIN_CLASS_NAME" value="cn.wyj.solution.ContainerWithMostWaterTest" />
       <option name="METHOD_NAME" value="maxArea2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindWordsTest.findWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.wyj.solution.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.wyj.solution" />
-      <option name="MAIN_CLASS_NAME" value="cn.wyj.solution.FindWordsTest" />
-      <option name="METHOD_NAME" value="findWords" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -224,7 +209,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pascals_TriangleTest.generate2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JumpGameTest.canJump" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -233,27 +218,43 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.wyj.solution" />
-      <option name="MAIN_CLASS_NAME" value="cn.wyj.solution.Pascals_TriangleTest" />
-      <option name="METHOD_NAME" value="generate2" />
+      <option name="MAIN_CLASS_NAME" value="cn.wyj.solution.JumpGameTest" />
+      <option name="METHOD_NAME" value="canJump" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumMovesToEqualArrayElementsTest.minMoves" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.wyj.solution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.wyj.solution" />
+      <option name="MAIN_CLASS_NAME" value="cn.wyj.solution.MinimumMovesToEqualArrayElementsTest" />
+      <option name="METHOD_NAME" value="minMoves" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Pascals_TriangleTest.generate2" />
-      <item itemvalue="JUnit.FindWordsTest.findWords" />
       <item itemvalue="JUnit.HappyNumberTest.isHappy" />
       <item itemvalue="JUnit.HappyNumberTest.isHappy2" />
       <item itemvalue="JUnit.ContainerWithMostWaterTest.maxArea2" />
+      <item itemvalue="JUnit.JumpGameTest.canJump" />
+      <item itemvalue="JUnit.MinimumMovesToEqualArrayElementsTest.minMoves" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MinimumMovesToEqualArrayElementsTest.minMoves" />
+        <item itemvalue="JUnit.JumpGameTest.canJump" />
         <item itemvalue="JUnit.ContainerWithMostWaterTest.maxArea2" />
         <item itemvalue="JUnit.HappyNumberTest.isHappy" />
         <item itemvalue="JUnit.HappyNumberTest.isHappy2" />
-        <item itemvalue="JUnit.FindWordsTest.findWords" />
-        <item itemvalue="JUnit.Pascals_TriangleTest.generate2" />
       </list>
     </recent_temporary>
   </component>
@@ -268,23 +269,19 @@
       <option name="presentableId" value="Default" />
       <updated>1552898149165</updated>
       <workItem from="1552898154795" duration="13082000" />
-      <workItem from="1553095156345" duration="33141000" />
+      <workItem from="1553095156345" duration="38702000" />
     </task>
+    <task id="LOCAL-00001" summary="leetCode">
+      <created>1553265324973</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553265324974</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HappyNumberTest_isHappy2 - 2019.03.22 at 20h 02m 12s.xml">
-      <configuration name="HappyNumberTest.isHappy2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HappyNumberTest_isHappy2 - 2019.03.22 at 20h 12m 40s.xml">
-      <configuration name="HappyNumberTest.isHappy2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HappyNumberTest_isHappy - 2019.03.22 at 20h 12m 57s.xml">
-      <configuration name="HappyNumberTest.isHappy" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HappyNumberTest_isHappy - 2019.03.22 at 20h 42m 00s.xml">
-      <configuration name="HappyNumberTest.isHappy" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HappyNumberTest_isHappy - 2019.03.22 at 20h 55m 04s.xml">
       <configuration name="HappyNumberTest.isHappy" configurationId="JUnit" />
     </history-entry>
@@ -303,18 +300,32 @@
     <history-entry file="ContainerWithMostWaterTest_maxArea2 - 2019.03.22 at 22h 21m 02s.xml">
       <configuration name="ContainerWithMostWaterTest.maxArea2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JumpGameTest_canJump - 2019.03.22 at 23h 05m 44s.xml">
+      <configuration name="JumpGameTest.canJump" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JumpGameTest_canJump - 2019.03.22 at 23h 06m 17s.xml">
+      <configuration name="JumpGameTest.canJump" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JumpGameTest_canJump - 2019.03.22 at 23h 07m 22s.xml">
+      <configuration name="JumpGameTest.canJump" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MinimumMovesToEqualArrayElementsTest_minMoves - 2019.03.23 at 12h 40m 20s.xml">
+      <configuration name="MinimumMovesToEqualArrayElementsTest.minMoves" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46223000" />
+    <option name="totallyTimeSpent" value="51784000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22087745" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22087745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Duplicate detector" visible="true" weight="0.32903227" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Version Control" order="2" />
@@ -327,7 +338,7 @@
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="Debug" order="12" visible="true" weight="0.31612903" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.36612904" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Maven" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -339,6 +350,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="leetCode" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetCode" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/cn/wyj/Main.java">
@@ -641,10 +656,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/JumpGameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" column="52" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="52" />
+          <folding>
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/JumpGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="18">
+          <caret line="7" selection-start-line="7" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/JumpGameII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/MinimumMovesToEqualArrayElementsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/MinimumMovesToEqualArrayElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
