@@ -1,7 +1,7 @@
 package cn.wyj.solution;
 
 public class MinimumMovesToEqualArrayElements {
-    
+
 
     //效率太慢，解数学题吧！
     public int minMoves(int[] nums) {
