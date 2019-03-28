@@ -10,7 +10,7 @@ public class PrimeFactorDecompositionTest {
     public void decomposition() {
         for (int i=2; i<=2000; i++){
             System.out.print(i + " = ");
-            PrimeFactorDecomposition.decomposition(i);
+            new PrimeFactorDecomposition().decomposition(i);
             System.out.println();
         }
     }
