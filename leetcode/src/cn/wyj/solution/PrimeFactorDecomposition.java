@@ -13,6 +13,12 @@ public class PrimeFactorDecomposition {
         /******生成质数表***/
         for (int i = 2; i <= N; i++)
             prime.add(i);
+
+//        for (int i = 0; i < prime.size(); i++) {
+//            for (int j = i + i; j < prime.size() && 0 != prime.get(i); j += i) {
+//                prime.set(j, 0);
+//            }
+//        }
         for (int i = 0; i < prime.size(); i++) {
             for (int j = i + 1; j < prime.size() && 0 != prime.get(i); j++) {
                 int num1 = prime.get(i);
@@ -23,7 +29,7 @@ public class PrimeFactorDecomposition {
             }
         }
 
-        prime = (LinkedList<Integer>) prime.stream().distinct().collect(Collectors.toList());
+//        prime = (LinkedList<Integer>) prime.stream().distinct().collect(Collectors.toList());
 
         Set<Integer> t = new LinkedHashSet<>(prime);
         prime.clear();
@@ -47,5 +53,19 @@ public class PrimeFactorDecomposition {
         }
         System.out.println(ans.get(ans.size() - 1));
 
+    }
+
+    /****优雅解法*/
+    static void Analyse(int n){
+        System.out.print(n + " = ");
+        int i;
+        for(i = 2; i <= Math.sqrt(n); i++){
+            if(n % i == 0){
+                n = n/i;
+                System.out.print(i + "*");
+                i--;
+            }
+        }
+        System.out.println(n);
     }
 }
