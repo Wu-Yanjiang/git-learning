@@ -1,7 +1,6 @@
 package cn.wyj.solution;
 
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 public class PascalsTriangleII {
 
@@ -31,5 +30,19 @@ public class PascalsTriangleII {
         }
 
         return ans;
+    }
+
+    public List<Integer> getRow2(int rowIndex) {
+        Integer[] ans = new Integer[rowIndex + 1];
+        ans[0] = 1;
+        for (int i=1; i<ans.length; i++)
+            ans[i] = 0;
+        for (int i = 1; i <= rowIndex; i++) {
+            for (int j = i; j >= 1; j--) {
+                ans[j] += ans[j - 1];
+            }
+        }
+
+        return Arrays.asList(ans);
     }
 }
