@@ -29,8 +29,9 @@ public class PrimeFactorDecompositionTest {
 
     @Test
     public void prime(){
-        int n = 20000;
-        for (int i=n-19000; i<=n; i++)
-            PrimeFactorDecomposition.Analyse(i);
+//        int n = 20000;
+//        for (int i=n-19000; i<=n; i++)
+//            PrimeFactorDecomposition.Analyse(i);
+        PrimeFactorDecomposition.Analyse(379721);
     }
 }

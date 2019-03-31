@@ -56,16 +56,17 @@ public class PrimeFactorDecomposition {
     }
 
     /****优雅解法*/
-    static void Analyse(int n){
+    static void Analyse(int n) {
         System.out.print(n + " = ");
         int i;
-        for(i = 2; i <= Math.sqrt(n); i++){
-            if(n % i == 0){
-                n = n/i;
+        for (i = 2; i <= Math.sqrt(n); i++) {
+            if (n % i == 0) {
+                n = n / i;
                 System.out.print(i + "*");
                 i--;
             }
         }
+        //如果n本身就是质数，那么上面的循环在达到Math.sqrt(n)时，n都不会有变化，直接输出n
         System.out.println(n);
     }
 }

@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa665eb6-023c-4501-b84f-406e1d8c4d06" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../rain/rain.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/cn/wyj/solution/PrimeFactorDecompositionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/cn/wyj/solution/PrimeFactorDecompositionTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/wyj/solution/PrimeFactorDecomposition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/wyj/solution/PrimeFactorDecomposition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/wyj/solution/PrimeFactorDecompositionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/wyj/solution/PrimeFactorDecompositionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/wyj/solution/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/wyj/solution/ThreeSum.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +21,7 @@
         <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/ThreeSum.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="227">
-              <caret line="51" column="47" lean-forward="true" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
+              <caret line="51" column="47" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -28,25 +30,25 @@
         <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/DeleteNodeInABST.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/PrimeFactorDecompositionTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/PrimeFactorDecompositionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/PrimeFactorDecomposition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+            <state relative-caret-position="187">
+              <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,12 +117,12 @@
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/PascalsTriangleII.java" />
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/PascalsTriangleIITest.java" />
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/ThreeSum.java" />
-        <option value="$PROJECT_DIR$/src/cn/wyj/solution/PrimeFactorDecomposition.java" />
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/PrimeFactorDecompositionTest.java" />
+        <option value="$PROJECT_DIR$/src/cn/wyj/solution/PrimeFactorDecomposition.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="311" />
     <option name="y" value="-23" />
     <option name="width" value="1280" />
@@ -314,7 +316,7 @@
       <workItem from="1553321953887" duration="15143000" />
       <workItem from="1553428969739" duration="10504000" />
       <workItem from="1553694018273" duration="264000" />
-      <workItem from="1553694864221" duration="23947000" />
+      <workItem from="1553694864221" duration="27871000" />
     </task>
     <task id="LOCAL-00001" summary="leetCode">
       <created>1553265324973</created>
@@ -327,15 +329,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PrimeFactorDecompositionTest_decomposition - 2019.03.30 at 22h 45m 22s.xml">
-      <configuration name="PrimeFactorDecompositionTest.decomposition" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeFactorDecompositionTest_decomposition - 2019.03.30 at 22h 46m 10s.xml">
-      <configuration name="PrimeFactorDecompositionTest.decomposition" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeFactorDecompositionTest_prime - 2019.03.30 at 22h 52m 24s.xml">
-      <configuration name="PrimeFactorDecompositionTest.prime" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PrimeFactorDecompositionTest_prime - 2019.03.30 at 22h 52m 39s.xml">
       <configuration name="PrimeFactorDecompositionTest.prime" configurationId="JUnit" />
     </history-entry>
@@ -357,15 +350,24 @@
     <history-entry file="PrimeFactorDecompositionTest_prime - 2019.03.30 at 22h 58m 23s.xml">
       <configuration name="PrimeFactorDecompositionTest.prime" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PrimeFactorDecompositionTest_prime - 2019.03.30 at 23h 00m 49s.xml">
+      <configuration name="PrimeFactorDecompositionTest.prime" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeFactorDecompositionTest_prime - 2019.03.31 at 10h 48m 24s.xml">
+      <configuration name="PrimeFactorDecompositionTest.prime" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeFactorDecompositionTest_prime - 2019.03.31 at 10h 49m 25s.xml">
+      <configuration name="PrimeFactorDecompositionTest.prime" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102252000" />
+    <option name="totallyTimeSpent" value="106176000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.204236" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18683812" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -382,7 +384,7 @@
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info active="true" anchor="bottom" id="Debug" order="12" sideWeight="0.49924356" visible="true" weight="0.31129032" />
+      <window_info active="true" anchor="bottom" id="Debug" order="12" sideWeight="0.49924356" visible="true" weight="0.44032258" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" visible="true" weight="0.32903227" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Maven" order="1" />
@@ -803,31 +805,31 @@
     <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/ThreeSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
-          <caret line="51" column="47" lean-forward="true" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
+          <caret line="51" column="47" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/DeleteNodeInABST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/PrimeFactorDecomposition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/PrimeFactorDecompositionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+        <state relative-caret-position="209">
+          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/PrimeFactorDecomposition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
