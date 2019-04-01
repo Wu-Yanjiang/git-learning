@@ -54,7 +54,7 @@ public class Rain extends JDialog implements ActionListener {
         }
         //每秒10帧
 //        new Timer(100, this).start();
-        new javax.swing.Timer(100, this).start();
+        new Timer(100, this).start();
     }
 
     /**
@@ -85,7 +85,7 @@ public class Rain extends JDialog implements ActionListener {
                 int cg = 0;
                 for (int j = endPos - 15; j < endPos; j++) {
                     //颜色渐变
-                    cg += 20;
+                    cg += 10;
                     if (cg > 255)
                         cg = 255;
                     g2d.setColor(new Color(0, cg, 0));

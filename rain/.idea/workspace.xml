@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a54ae185-b82f-4111-8fd9-1a3b69c5a450" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/rain.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leetcode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode/out/production/leetcode/cn/wyj/solution/PrimeFactorDecompositionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode/out/production/leetcode/cn/wyj/solution/PrimeFactorDecompositionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode/src/cn/wyj/solution/PrimeFactorDecomposition.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode/src/cn/wyj/solution/PrimeFactorDecomposition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode/src/cn/wyj/solution/PrimeFactorDecompositionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode/src/cn/wyj/solution/PrimeFactorDecompositionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rain/Rain$GraphicsPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rain/Rain$GraphicsPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rain.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,12 +32,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Rain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="89" column="33" lean-forward="true" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
+            <state relative-caret-position="-900">
+              <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#586#587#0" expanded="true" />
-                <element signature="e#2006#2007#0" expanded="true" />
+                <element signature="e#1994#1995#0" expanded="true" />
                 <element signature="e#2001#2002#0" expanded="true" />
                 <element signature="e#2029#2030#0" expanded="true" />
               </folding>
@@ -97,6 +96,24 @@
             <path>
               <item name="rain" type="b2602c69:ProjectViewProjectNode" />
               <item name="rain" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rain" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rain" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="rain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rain" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -149,12 +166,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554017777988</updated>
-      <workItem from="1554017783846" duration="4924000" />
+      <workItem from="1554017783846" duration="9403000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4924000" />
+    <option name="totallyTimeSpent" value="9403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -163,7 +180,7 @@
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1709531" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1709531" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -174,7 +191,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.28709677" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.28709677" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -226,6 +243,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://E:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.desktop/java/awt/event/KeyEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1566">
+          <caret line="229" column="46" lean-forward="true" selection-start-line="229" selection-start-column="46" selection-end-line="229" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.desktop/java/awt/Container.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1098" column="19" selection-start-line="1098" selection-start-column="19" selection-end-line="1098" selection-end-column="19" />
+          <folding>
+            <element signature="e#38206#38207#0" expanded="true" />
+            <element signature="e#38252#38253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -237,14 +272,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/rain/Rain.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#4001#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/rain/Main.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#226#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Rain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="89" column="33" lean-forward="true" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
+        <state relative-caret-position="-900">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#586#587#0" expanded="true" />
-            <element signature="e#2006#2007#0" expanded="true" />
+            <element signature="e#1994#1995#0" expanded="true" />
             <element signature="e#2001#2002#0" expanded="true" />
             <element signature="e#2029#2030#0" expanded="true" />
           </folding>

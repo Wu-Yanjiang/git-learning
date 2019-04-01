@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa665eb6-023c-4501-b84f-406e1d8c4d06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../rain/rain.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/cn/wyj/solution/PrimeFactorDecompositionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/cn/wyj/solution/PrimeFactorDecompositionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/wyj/solution/PrimeFactorDecomposition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/wyj/solution/PrimeFactorDecomposition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/wyj/solution/PrimeFactorDecompositionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/wyj/solution/PrimeFactorDecompositionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rain/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rain/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rain/out/production/rain/Rain$GraphicsPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../rain/out/production/rain/Rain$GraphicsPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rain/src/Rain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rain/src/Rain.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +19,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/ThreeSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="51" column="47" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
+            <state relative-caret-position="225">
+              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/TwoSum2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/TwoSumIV.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="37" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -29,29 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/DeleteNodeInABST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/PrimeFactorDecompositionTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/PrimeFactorDecomposition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="72">
+              <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -62,8 +63,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Arquillian JUnit Test Class" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -116,13 +117,15 @@
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/PathSum.java" />
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/PascalsTriangleII.java" />
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/PascalsTriangleIITest.java" />
-        <option value="$PROJECT_DIR$/src/cn/wyj/solution/ThreeSum.java" />
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/PrimeFactorDecompositionTest.java" />
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/PrimeFactorDecomposition.java" />
+        <option value="$PROJECT_DIR$/src/cn/wyj/solution/ThreeSum.java" />
+        <option value="$PROJECT_DIR$/src/cn/wyj/solution/TwoSum2.java" />
+        <option value="$PROJECT_DIR$/src/cn/wyj/solution/TwoSumIV.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="311" />
     <option name="y" value="-23" />
     <option name="width" value="1280" />
@@ -316,7 +319,7 @@
       <workItem from="1553321953887" duration="15143000" />
       <workItem from="1553428969739" duration="10504000" />
       <workItem from="1553694018273" duration="264000" />
-      <workItem from="1553694864221" duration="27871000" />
+      <workItem from="1553694864221" duration="36343000" />
     </task>
     <task id="LOCAL-00001" summary="leetCode">
       <created>1553265324973</created>
@@ -361,10 +364,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106176000" />
+    <option name="totallyTimeSpent" value="114648000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18683812" />
@@ -377,14 +380,14 @@
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32903227" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32903227" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.32903227" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50075644" side_tool="true" weight="0.41129032" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50075644" side_tool="true" weight="0.44032258" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
       <window_info anchor="bottom" id="Run" order="8" weight="0.36935484" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info active="true" anchor="bottom" id="Debug" order="12" sideWeight="0.49924356" visible="true" weight="0.44032258" />
+      <window_info active="true" anchor="bottom" id="Debug" order="12" sideWeight="0.49924356" visible="true" weight="0.32419354" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" visible="true" weight="0.32903227" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Maven" order="1" />
@@ -403,24 +406,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="leetCode" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://E:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/math/BigInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="1181" column="12" selection-start-line="1181" selection-start-column="12" selection-end-line="1181" selection-end-column="12" />
-          <folding>
-            <element signature="e#26551#26552#0" expanded="true" />
-            <element signature="e#26580#26581#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="375" column="23" selection-start-line="375" selection-start-column="23" selection-end-line="375" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/AddToArrayForm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="426">
@@ -802,17 +787,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/ThreeSum.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/PrimeFactorDecomposition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="51" column="47" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/DeleteNodeInABST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="187">
+          <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -823,12 +804,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/PrimeFactorDecomposition.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/DeleteNodeInABST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+        <state relative-caret-position="72">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/ThreeSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/TwoSum2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/TwoSumIV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="37" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
           </folding>
         </state>
       </provider>
