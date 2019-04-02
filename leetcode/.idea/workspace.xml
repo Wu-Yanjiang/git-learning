@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fa665eb6-023c-4501-b84f-406e1d8c4d06" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rain/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rain/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rain/out/production/rain/Rain$GraphicsPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../rain/out/production/rain/Rain$GraphicsPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rain/src/Rain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rain/src/Rain.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/TwoSumIV.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="27">
@@ -44,6 +41,15 @@
                 <element signature="e#169#170#0" expanded="true" />
                 <element signature="e#200#201#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/MaximumProductOfThreeNumbers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -122,6 +128,7 @@
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/ThreeSum.java" />
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/TwoSum2.java" />
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/TwoSumIV.java" />
+        <option value="$PROJECT_DIR$/src/cn/wyj/solution/MaximumProductOfThreeNumbers.java" />
       </list>
     </option>
   </component>
@@ -319,7 +326,7 @@
       <workItem from="1553321953887" duration="15143000" />
       <workItem from="1553428969739" duration="10504000" />
       <workItem from="1553694018273" duration="264000" />
-      <workItem from="1553694864221" duration="36343000" />
+      <workItem from="1553694864221" duration="38376000" />
     </task>
     <task id="LOCAL-00001" summary="leetCode">
       <created>1553265324973</created>
@@ -364,13 +371,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114648000" />
+    <option name="totallyTimeSpent" value="116681000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18683812" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18683812" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -387,7 +394,7 @@
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info active="true" anchor="bottom" id="Debug" order="12" sideWeight="0.49924356" visible="true" weight="0.32419354" />
+      <window_info anchor="bottom" id="Debug" order="12" sideWeight="0.49924356" visible="true" weight="0.32419354" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" visible="true" weight="0.32903227" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Maven" order="1" />
@@ -406,23 +413,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="leetCode" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/AddToArrayForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="81" column="19" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="137" column="38" lean-forward="true" selection-start-line="137" selection-start-column="38" selection-end-line="137" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Iterable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
@@ -834,6 +824,20 @@
             <element signature="e#169#170#0" expanded="true" />
             <element signature="e#200#201#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="63" column="38" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/MaximumProductOfThreeNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
         </state>
       </provider>
     </entry>
