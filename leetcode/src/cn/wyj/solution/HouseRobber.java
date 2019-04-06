@@ -38,7 +38,21 @@ public class HouseRobber {
         }
         return ret;
     }
+/*
+*  There is some frustration when people publish their perfect fine-grained algorithms without sharing any information abut how they were derived.
+*  This is an attempt to change the situation.
+*  There is not much more explanation but it's rather an example of higher level improvements.
+*  Converting a solution to the next step shouldn't be as hard as attempting to come up with perfect algorithm at first attempt.
 
+    This particular problem and most of others can be approached using the following sequence:
+
+    Find recursive relation
+    Recursive (top-down)
+    Recursive + memo (top-down)
+    Iterative + memo (bottom-up)
+    Iterative + N variables (bottom-up)
+*
+* */
     int rob3(int[] nums) {
         if (nums.length == 0)
             return 0;
