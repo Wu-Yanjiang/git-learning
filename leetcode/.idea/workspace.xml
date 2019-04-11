@@ -24,11 +24,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/IsomorphicStrings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+            <state relative-caret-position="120">
+              <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/ContainsDuplicateII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" selection-start-line="7" selection-end-line="13" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,6 +130,7 @@
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/StoneGame.java" />
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/FindPivotIndex.java" />
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/IsomorphicStrings.java" />
+        <option value="$PROJECT_DIR$/src/cn/wyj/solution/ContainsDuplicateII.java" />
       </list>
     </option>
   </component>
@@ -318,7 +331,7 @@
       <workItem from="1553694864221" duration="46069000" />
       <workItem from="1554443987966" duration="26290000" />
       <workItem from="1554796559592" duration="190000" />
-      <workItem from="1554797209573" duration="6062000" />
+      <workItem from="1554797209573" duration="8215000" />
     </task>
     <task id="LOCAL-00001" summary="leetCode">
       <created>1553265324973</created>
@@ -363,13 +376,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156916000" />
+    <option name="totallyTimeSpent" value="159069000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27685326" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2375189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -405,13 +418,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="leetCode" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/StudentsSortTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/StudentsSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -840,8 +846,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/IsomorphicStrings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        <state relative-caret-position="120">
+          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/ContainsDuplicateII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" selection-start-line="7" selection-end-line="13" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
