@@ -36,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/ContainsDuplicateII.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
@@ -48,14 +48,32 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/CountPrimes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/CountPrimesTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Arquillian JUnit Test Class" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -80,8 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/cn/wyj/solution/AddBinaryTest.java" />
-        <option value="$PROJECT_DIR$/src/cn/wyj/solution/AddBinary.java" />
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/Pascals_TriangleTest.java" />
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/Pascals_Triangle.java" />
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/SumEvenAfterQueries.java" />
@@ -131,6 +147,8 @@
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/FindPivotIndex.java" />
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/IsomorphicStrings.java" />
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/ContainsDuplicateII.java" />
+        <option value="$PROJECT_DIR$/src/cn/wyj/solution/CountPrimesTest.java" />
+        <option value="$PROJECT_DIR$/src/cn/wyj/solution/CountPrimes.java" />
       </list>
     </option>
   </component>
@@ -218,7 +236,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.CountPrimesTest.countPrimes">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.wyj.Main" />
       <module name="leetcode" />
@@ -228,6 +246,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountPrimesTest.countPrimes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.wyj.solution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.wyj.solution" />
+      <option name="MAIN_CLASS_NAME" value="cn.wyj.solution.CountPrimesTest" />
+      <option name="METHOD_NAME" value="countPrimes" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -243,22 +277,6 @@
       <option name="PACKAGE_NAME" value="cn.wyj.solution" />
       <option name="MAIN_CLASS_NAME" value="cn.wyj.solution.HouseRobberTest" />
       <option name="METHOD_NAME" value="rob" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrimeFactorDecompositionTest.decomposition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.wyj.solution.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.wyj.solution" />
-      <option name="MAIN_CLASS_NAME" value="cn.wyj.solution.PrimeFactorDecompositionTest" />
-      <option name="METHOD_NAME" value="decomposition" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -298,18 +316,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.PrimeFactorDecompositionTest.decomposition" />
       <item itemvalue="JUnit.PrimeFactorDecompositionTest.prime" />
       <item itemvalue="JUnit.SelfDividingNumbersTest.selfDividingNumbers" />
       <item itemvalue="JUnit.HouseRobberTest.rob" />
+      <item itemvalue="JUnit.CountPrimesTest.countPrimes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CountPrimesTest.countPrimes" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.HouseRobberTest.rob" />
         <item itemvalue="JUnit.SelfDividingNumbersTest.selfDividingNumbers" />
         <item itemvalue="JUnit.PrimeFactorDecompositionTest.prime" />
-        <item itemvalue="JUnit.PrimeFactorDecompositionTest.decomposition" />
       </list>
     </recent_temporary>
   </component>
@@ -331,7 +349,7 @@
       <workItem from="1553694864221" duration="46069000" />
       <workItem from="1554443987966" duration="26290000" />
       <workItem from="1554796559592" duration="190000" />
-      <workItem from="1554797209573" duration="8215000" />
+      <workItem from="1554797209573" duration="9946000" />
     </task>
     <task id="LOCAL-00001" summary="leetCode">
       <created>1553265324973</created>
@@ -344,27 +362,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HouseRobberTest_rob - 2019.04.05 at 21h 36m 47s.xml">
-      <configuration name="HouseRobberTest.rob" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HouseRobberTest_rob - 2019.04.05 at 21h 38m 06s.xml">
-      <configuration name="HouseRobberTest.rob" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HouseRobberTest_rob - 2019.04.05 at 21h 40m 02s.xml">
-      <configuration name="HouseRobberTest.rob" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HouseRobberTest_rob - 2019.04.05 at 21h 42m 56s.xml">
-      <configuration name="HouseRobberTest.rob" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HouseRobberTest_rob - 2019.04.05 at 21h 43m 17s.xml">
-      <configuration name="HouseRobberTest.rob" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HouseRobberTest_rob - 2019.04.05 at 21h 53m 53s.xml">
-      <configuration name="HouseRobberTest.rob" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HouseRobberTest_rob - 2019.04.05 at 21h 55m 41s.xml">
-      <configuration name="HouseRobberTest.rob" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HouseRobberTest_rob - 2019.04.05 at 21h 56m 01s.xml">
       <configuration name="HouseRobberTest.rob" configurationId="JUnit" />
     </history-entry>
@@ -374,15 +371,36 @@
     <history-entry file="HouseRobberTest_rob - 2019.04.05 at 21h 56m 31s.xml">
       <configuration name="HouseRobberTest.rob" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CountPrimesTest_countPrimes - 2019.04.11 at 23h 25m 46s.xml">
+      <configuration name="CountPrimesTest.countPrimes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CountPrimesTest_countPrimes - 2019.04.11 at 23h 26m 32s.xml">
+      <configuration name="CountPrimesTest.countPrimes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CountPrimesTest_countPrimes - 2019.04.11 at 23h 26m 40s.xml">
+      <configuration name="CountPrimesTest.countPrimes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CountPrimesTest_countPrimes - 2019.04.11 at 23h 26m 45s.xml">
+      <configuration name="CountPrimesTest.countPrimes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CountPrimesTest_countPrimes - 2019.04.11 at 23h 26m 54s.xml">
+      <configuration name="CountPrimesTest.countPrimes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CountPrimesTest_countPrimes - 2019.04.11 at 23h 27m 12s.xml">
+      <configuration name="CountPrimesTest.countPrimes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CountPrimesTest_countPrimes - 2019.04.11 at 23h 29m 27s.xml">
+      <configuration name="CountPrimesTest.countPrimes" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159069000" />
+    <option name="totallyTimeSpent" value="160800000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2375189" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2375189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -399,7 +417,7 @@
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="Debug" order="12" sideWeight="0.49924356" weight="0.3564516" />
+      <window_info active="true" anchor="bottom" id="Debug" order="12" sideWeight="0.49924356" visible="true" weight="0.3564516" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" visible="true" weight="0.32903227" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Maven" order="1" />
@@ -418,24 +436,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="leetCode" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/StudentsSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/DeleteOperationforTwoStringsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/DeleteOperationforTwoStrings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -861,6 +861,20 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/CountPrimesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/CountPrimes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
