@@ -56,11 +56,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/MaximumAverageSubarrayI.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
               <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/UglyNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/UglyNumberTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -80,8 +98,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Arquillian JUnit Test Class" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -106,8 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/cn/wyj/solution/Pascals_Triangle.java" />
-        <option value="$PROJECT_DIR$/src/cn/wyj/solution/SumEvenAfterQueries.java" />
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/AddToArrayForm.java" />
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/IsCousin.java" />
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/FindWordsTest.java" />
@@ -157,6 +173,8 @@
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/CountPrimesTest.java" />
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/CountPrimes.java" />
         <option value="$PROJECT_DIR$/src/cn/wyj/solution/MaximumAverageSubarrayI.java" />
+        <option value="$PROJECT_DIR$/src/cn/wyj/solution/UglyNumberTest.java" />
+        <option value="$PROJECT_DIR$/src/cn/wyj/solution/UglyNumber.java" />
       </list>
     </option>
   </component>
@@ -244,7 +262,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CountPrimesTest.countPrimes">
+  <component name="RunManager" selected="JUnit.UglyNumberTest.isUgly">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.wyj.Main" />
       <module name="leetcode" />
@@ -290,7 +308,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeFactorDecompositionTest.prime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UglyNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -299,14 +317,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.wyj.solution" />
-      <option name="MAIN_CLASS_NAME" value="cn.wyj.solution.PrimeFactorDecompositionTest" />
-      <option name="METHOD_NAME" value="prime" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="cn.wyj.solution.UglyNumberTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelfDividingNumbersTest.selfDividingNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UglyNumberTest.isUgly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -315,8 +332,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.wyj.solution" />
-      <option name="MAIN_CLASS_NAME" value="cn.wyj.solution.SelfDividingNumbersTest" />
-      <option name="METHOD_NAME" value="selfDividingNumbers" />
+      <option name="MAIN_CLASS_NAME" value="cn.wyj.solution.UglyNumberTest" />
+      <option name="METHOD_NAME" value="isUgly" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -324,18 +341,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.PrimeFactorDecompositionTest.prime" />
-      <item itemvalue="JUnit.SelfDividingNumbersTest.selfDividingNumbers" />
       <item itemvalue="JUnit.HouseRobberTest.rob" />
       <item itemvalue="JUnit.CountPrimesTest.countPrimes" />
+      <item itemvalue="JUnit.UglyNumberTest.isUgly" />
+      <item itemvalue="JUnit.UglyNumberTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UglyNumberTest.isUgly" />
+        <item itemvalue="JUnit.UglyNumberTest" />
         <item itemvalue="JUnit.CountPrimesTest.countPrimes" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.HouseRobberTest.rob" />
-        <item itemvalue="JUnit.SelfDividingNumbersTest.selfDividingNumbers" />
-        <item itemvalue="JUnit.PrimeFactorDecompositionTest.prime" />
       </list>
     </recent_temporary>
   </component>
@@ -358,7 +375,7 @@
       <workItem from="1554443987966" duration="26290000" />
       <workItem from="1554796559592" duration="190000" />
       <workItem from="1554797209573" duration="9946000" />
-      <workItem from="1555248841353" duration="2767000" />
+      <workItem from="1555248841353" duration="4907000" />
     </task>
     <task id="LOCAL-00001" summary="leetCode">
       <created>1553265324973</created>
@@ -371,27 +388,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HouseRobberTest_rob - 2019.04.05 at 21h 56m 01s.xml">
-      <configuration name="HouseRobberTest.rob" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HouseRobberTest_rob - 2019.04.05 at 21h 56m 21s.xml">
-      <configuration name="HouseRobberTest.rob" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HouseRobberTest_rob - 2019.04.05 at 21h 56m 31s.xml">
-      <configuration name="HouseRobberTest.rob" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CountPrimesTest_countPrimes - 2019.04.11 at 23h 25m 46s.xml">
-      <configuration name="CountPrimesTest.countPrimes" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CountPrimesTest_countPrimes - 2019.04.11 at 23h 26m 32s.xml">
-      <configuration name="CountPrimesTest.countPrimes" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CountPrimesTest_countPrimes - 2019.04.11 at 23h 26m 40s.xml">
-      <configuration name="CountPrimesTest.countPrimes" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CountPrimesTest_countPrimes - 2019.04.11 at 23h 26m 45s.xml">
-      <configuration name="CountPrimesTest.countPrimes" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CountPrimesTest_countPrimes - 2019.04.11 at 23h 26m 54s.xml">
       <configuration name="CountPrimesTest.countPrimes" configurationId="JUnit" />
     </history-entry>
@@ -401,15 +397,36 @@
     <history-entry file="CountPrimesTest_countPrimes - 2019.04.11 at 23h 29m 27s.xml">
       <configuration name="CountPrimesTest.countPrimes" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UglyNumberTest_isUgly - 2019.04.15 at 13h 45m 42s.xml">
+      <configuration name="UglyNumberTest.isUgly" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UglyNumberTest_isUgly - 2019.04.15 at 13h 46m 04s.xml">
+      <configuration name="UglyNumberTest.isUgly" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UglyNumberTest_isUgly - 2019.04.15 at 13h 53m 47s.xml">
+      <configuration name="UglyNumberTest.isUgly" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UglyNumberTest_isUgly - 2019.04.15 at 13h 54m 27s.xml">
+      <configuration name="UglyNumberTest.isUgly" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UglyNumberTest - 2019.04.15 at 13h 56m 43s.xml">
+      <configuration name="UglyNumberTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UglyNumberTest_isUgly - 2019.04.15 at 13h 59m 57s.xml">
+      <configuration name="UglyNumberTest.isUgly" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UglyNumberTest - 2019.04.15 at 14h 00m 19s.xml">
+      <configuration name="UglyNumberTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163567000" />
+    <option name="totallyTimeSpent" value="165707000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24130106" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24130106" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -426,7 +443,7 @@
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info active="true" anchor="bottom" id="Debug" order="12" sideWeight="0.49924356" visible="true" weight="0.3564516" />
+      <window_info active="true" anchor="bottom" id="Debug" order="12" sideWeight="0.49924356" visible="true" weight="0.44677418" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" visible="true" weight="0.32903227" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Maven" order="1" />
@@ -445,20 +462,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="leetCode" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/IntegerToRoman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8640">
-          <caret line="503" column="24" selection-start-line="503" selection-start-column="24" selection-end-line="503" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/ReverseLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-558">
@@ -884,6 +887,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/UglyNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/wyj/solution/UglyNumberTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
         </state>
       </provider>
     </entry>
