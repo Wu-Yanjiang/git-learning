@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa665eb6-023c-4501-b84f-406e1d8c4d06" name="Default Changelist" comment="" />
+    <list default="true" id="fa665eb6-023c-4501-b84f-406e1d8c4d06" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -373,7 +375,7 @@
       <workItem from="1554443987966" duration="26290000" />
       <workItem from="1554796559592" duration="190000" />
       <workItem from="1554797209573" duration="9946000" />
-      <workItem from="1555248841353" duration="18648000" />
+      <workItem from="1555248841353" duration="19238000" />
     </task>
     <task id="LOCAL-00001" summary="leetCode">
       <created>1553265324973</created>
@@ -418,11 +420,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179448000" />
+    <option name="totallyTimeSpent" value="180038000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24130106" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -441,7 +442,7 @@
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="Debug" order="12" sideWeight="0.49924356" visible="true" weight="0.27741936" />
+      <window_info anchor="bottom" id="Debug" order="12" sideWeight="0.49924356" weight="0.27741936" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" visible="true" weight="0.32903227" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Maven" order="1" />
