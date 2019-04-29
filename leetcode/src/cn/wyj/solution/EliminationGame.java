@@ -1,5 +1,6 @@
 package cn.wyj.solution;
 
+import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -31,4 +32,11 @@ public class EliminationGame {
     public int lastRemaining2(int n) {
         return n == 1 ? 1 : 2 * (1 + n / 2 - lastRemaining2(n / 2));
     }
+
+//    public boolean haveFunWithNum(int n) {
+//        BigInteger a = new BigInteger(String.valueOf((n)));
+//        int b = a.intValue()/10;
+//        a = a.multiply(new BigInteger(String.valueOf(2)));
+//
+//    }
 }
