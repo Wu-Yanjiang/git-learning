@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Spring" type="spring">
+    <CLASSES>
+      <root url="jar://D:/chromeDownloads/spring-framework-4.3.6.RELEASE-dist/spring-framework-4.3.6.RELEASE/libs/spring-beans-4.3.6.RELEASE.jar!/" />
+      <root url="jar://D:/chromeDownloads/spring-framework-4.3.6.RELEASE-dist/spring-framework-4.3.6.RELEASE/libs/spring-core-4.3.6.RELEASE.jar!/" />
+      <root url="jar://D:/chromeDownloads/spring-framework-4.3.6.RELEASE-dist/spring-framework-4.3.6.RELEASE/libs/spring-context-4.3.6.RELEASE.jar!/" />
+      <root url="jar://D:/chromeDownloads/spring-framework-4.3.6.RELEASE-dist/spring-framework-4.3.6.RELEASE/libs/spring-expression-4.3.6.RELEASE.jar!/" />
+      <root url="jar://D:/chromeDownloads/commons-logging-1.2-bin/commons-logging-1.2/commons-logging-1.2.jar!/" />
+      <root url="file://D:/chromeDownloads/spring-framework-4.3.6.RELEASE-dist/spring-framework-4.3.6.RELEASE/libs" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://D:/chromeDownloads/spring-framework-4.3.6.RELEASE-dist/spring-framework-4.3.6.RELEASE/libs" />
+    </SOURCES>
+    <jarDirectory url="file://D:/chromeDownloads/spring-framework-4.3.6.RELEASE-dist/spring-framework-4.3.6.RELEASE/libs" recursive="false" />
+    <jarDirectory url="file://D:/chromeDownloads/spring-framework-4.3.6.RELEASE-dist/spring-framework-4.3.6.RELEASE/libs" recursive="false" type="SOURCES" />
+  </library>
+</component>
