@@ -7,6 +7,9 @@
           <file>file://$MODULE_DIR$/src/spring-config.xml</file>
           <file>file://$MODULE_DIR$/src/com/itheima/instance/static_factory/beans2.xml</file>
           <file>file://$MODULE_DIR$/src/com/itheima/instance/factory/beans3.xml</file>
+          <file>file://$MODULE_DIR$/src/com/itheima/instance/constructor/spring-config.xml</file>
+          <file>file://$MODULE_DIR$/src/com/itheima/scope/beans4.xml</file>
+          <file>file://$MODULE_DIR$/src/com/itheima/assemble/beans5.xml</file>
         </fileset>
       </configuration>
     </facet>
